@@ -84,12 +84,12 @@ theme = "gosaas-hugo"
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Prometech Website"
+author = "Prometech"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # copyright
-copyright = "| @2019 [Themefisher](https://themefisher.com) All Rights Reserved |"
+copyright = "| @2023 [Hugo Sibony](https://hugosibony.com) All Rights Reserved |"
 
   # Preloader
   [params.preloader]
@@ -104,14 +104,6 @@ copyright = "| @2019 [Themefisher](https://themefisher.com) All Rights Reserved 
 
 
 ############################### social links ############################
-[[params.social]]
-name = "Facebook"
-link = "#"
-
-[[params.social]]
-name = "Twitter"
-link = "#"
-
 [[params.social]]
 name = "Github"
 link = "#"
