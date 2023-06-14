@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
     {{- partial "head.html" . -}}
-    <body>
-        {{- partial "preloader.html" . -}}
-        {{- partial "header.html" . -}}
-        {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
-    </body>
+
+    <!-- Google Tag Manager code -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GZMDLKS1TV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GZMDLKS1TV');
+    </script>
+</head>
+<body>
+    {{- partial "preloader.html" . -}}
+    {{- partial "header.html" . -}}
+    {{- block "main" . }}{{- end }}
+    {{- partial "footer.html" . -}}
+</body>
 </html>
