@@ -81,7 +81,7 @@ theme = "gosaas-hugo"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo_1.png"
 home = "Home"
 # Meta data
 description = "Prometech Website"
