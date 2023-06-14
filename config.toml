@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "www.prometech.in/"
+baseURL = "https://www.prometech.in/"
 languageCode = "en-us"
 title = "Prometech"
 theme = "gosaas-hugo"
