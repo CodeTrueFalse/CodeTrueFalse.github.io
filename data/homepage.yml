@@ -3,11 +3,14 @@ banner:
   enable : true
   bgImage : "images/backgrounds/banner-bg.png"
   image : "images/illustrations/banner-img.png"
-  title : "**Build your audience** and grow on social media"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna."
+  title : "Let's **Build Your Project** Together !"
+  content : >
+    Prometech helps you build any kind of software you need.  
+    
+    Weither it's a **cloud-based scrapping tool**, or a **AI-driven pentesting tool**, we can build it for you.
   button:
     enable : true
-    label : "download now"
+    label : "Get Started"
     link : "#"
 
 
@@ -48,10 +51,11 @@ about:
 cta:
   enable : true
   bgImage : "images/backgrounds/footer-bg.png"
-  title : "Join 75,000+ growing businesses that use Buffer to build their brands"
+  title : "Want to build your **projects** with us ? Let's talk about it!"
   button:
     enable : true
-    label : "Join us now"
+    label : "Contact Us"
+    link : "contact"
 
 
 ################################## About App ##############################

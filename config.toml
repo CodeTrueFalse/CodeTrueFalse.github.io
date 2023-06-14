@@ -87,9 +87,8 @@ home = "Home"
 description = "Prometech Website"
 author = "Prometech"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
-# copyright
-copyright = "| @2023 [Hugo Sibony](https://hugosibony.com) All Rights Reserved |"
+googleAnalitycsID = "G-GZMDLKS1TV"
+
 
   # Preloader
   [params.preloader]
@@ -116,16 +115,16 @@ link = "#"
 ########################### footer call to action #####################
 [params.cta]
 enable = true
-title  = "Join 75,000+ growing businesses that <br> use Buffer to build their brands"
+title  = "Want to build your projects with us? Let's talk about it!"
 #button
-label = "Get start with us"
-link = "#"
+label = "Contact Us"
+link = "contact"
 
 
 ############################ footer ##############################
 [params.footer]
 bgImage = "images/backgrounds/footer-bg.png"
-content = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has."
+content = "Designed and Developed by [Hugo Sibony](https://hugosibony.com)"
 
 # card we accept
 [[params.footer.card]]
