@@ -16,7 +16,7 @@ banner:
 
 ############################# Clients logo #################################
 clientsLogo:
-  enable : true
+  enable : false
   logos:
     - logo : "images/clients-logo/clients-logo-1.png"
     - logo : "images/clients-logo/clients-logo-2.png"
