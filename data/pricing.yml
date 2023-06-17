@@ -1,6 +1,6 @@
 ################################## Pricing ################################
 pricing:
-  enable : true
+  enable : false
   title : "Choose The **Best Plan** For <br> Your Business"
   pricingTable :
     # pricing table loop

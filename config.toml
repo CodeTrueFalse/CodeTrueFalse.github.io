@@ -42,10 +42,10 @@ theme = "gosaas-hugo"
   URL = "team"
   weight = 4
   
-  [[menu.main]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
+#  [[menu.main]]
+#  name = "Pricing"
+#  URL = "pricing"
+#  weight = 5
     
   [[menu.main]]
   name = "Contact"
@@ -105,11 +105,11 @@ googleAnalitycsID = "G-GZMDLKS1TV"
 ############################### social links ############################
 [[params.social]]
 name = "Github"
-link = "#"
+link = "https://www.github.com/CodePrometech"
 
 [[params.social]]
 name = "Linkedin"
-link = "#"
+link = "https://www.linkedin.com/company/itprometech"
 
 
 ########################### footer call to action #####################
@@ -131,5 +131,3 @@ content = "Designed and Developed by [Hugo Sibony](https://hugosibony.com)"
 image = "images/paypal.png"
 [[params.footer.card]]
 image = "images/visa.png"
-[[params.footer.card]]
-image = "images/a-express.png"

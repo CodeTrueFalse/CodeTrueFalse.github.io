@@ -3,16 +3,14 @@ banner:
   enable : true
   bgImage : "images/backgrounds/banner-bg.png"
   image : "images/illustrations/banner-img.png"
-  title : "Let's **Build Your Project** Together !"
+  title : "Let's **Build Your Project** Together!"
   content : >
-    Prometech helps you build any kind of software you need.  
-    
-    Weither it's a **cloud-based scrapping tool**, or a **AI-driven pentesting tool**, we can build it for you.
+    Prometech is a startup created by two passionate French engineering students. We specialize in technology and innovation, and we're here to help you bring your ideas to life. Whether you need a cloud-based scraping tool or an AI-driven pentesting tool, we have the expertise to build it for you.
+
   button:
-    enable : true
+    enable : false
     label : "Get Started"
     link : "#"
-
 
 ############################# Clients logo #################################
 clientsLogo:
@@ -27,7 +25,6 @@ clientsLogo:
     - logo : "images/clients-logo/clients-logo-7.png"
     - logo : "images/clients-logo/clients-logo-8.png"
 
-
 ################################ Service ##################################
 service:
   enable : true
@@ -35,72 +32,66 @@ service:
 
 ######################################## About #############################
 about:
-  enable : true
-  title : "What We can **do for you**?"
-  image : "images/illustrations/about-img.png"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna justo takimata sanctus est Lorem ipsum dolor sit rergg rgsea dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
+  enable: true
+  title: "What We Can Do for You?"
+  image: "images/illustrations/about-img.png"
+  content: "**Prometech** is a startup created by two passionate French engineering students who are dedicated to **technology and innovation**. We offer a range of services to help you bring your projects to life. Our expertise includes building **cloud-based scraping tools** and **AI-driven pentesting tools**. We strive to deliver **high-quality solutions** that meet your unique needs."
+
   button:
     enable : true
-    label : "know more"
+    label : "Know More"
     link : "about"
 
-
-##################################### call to action #######################
+##################################### Call to Action #######################
 cta:
   enable : true
   bgImage : "images/backgrounds/footer-bg.png"
-  title : "Want to build your **projects** with us ? Let's talk about it!"
+  title : "Want to Build Your Projects with Us? Let's Talk About It!"
   button:
     enable : true
     label : "Contact Us"
     link : "contact"
 
-
 ################################## About App ##############################
 aboutApp:
-  enable : true
+  enable: true
   appItem:
     # about app item loop
-    - title : "**Collaborate** on content with your team"
-      image : "images/about-app/app-screen-1.png"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
-      
+    - title: "Harnessing Innovation for **Your Success**"
+      image: "images/about-app/app-screen-1.png"
+      content: "As passionate engineering students, we are dedicated to **harnessing the power of innovation** to drive your success. We offer **cutting-edge solutions** that leverage advanced technologies to solve complex challenges and help your business thrive."
+
     # about app item loop
-    - title : "Take your **marketing** to the next level"
-      image : "images/about-app/app-screen-2.png"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
-      
+    - title: "Customized Solutions Tailored to **Your Needs**"
+      image: "images/about-app/app-screen-2.png"
+      content: "We understand that every business is unique. That's why we offer **customized solutions** tailored to your specific needs and requirements. We work closely with you to analyze your challenges and deliver personalized software solutions that **address your pain points effectively**."
+
     # about app item loop
-    - title : "**Collaborate** on content with your team"
-      image : "images/about-app/app-screen-3.png"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+    - title: "Collaborative Approach for **Exceptional Results**"
+      image: "images/about-app/app-screen-3.png"
+      content: "By choosing to work with us, you benefit from a **collaborative approach**. As students, we are eager to learn, adapt, and **collaborate closely** with our clients. Together, we can achieve **exceptional results**, co-creating innovative software solutions that drive your business forward."
 
 
 #################################### Testimonial ##########################
 testimonial:
   enable : false
-  title : "What **Peoples Says** About Us"
+  title : "What People Say About Us"
   sliderItem:
     # slider item loop
     - name : "John Doe"
-      designation : "CEO,3D Coders"
+      designation : "CEO, 3D Coders"
       image : "images/testimonial/user-1.jpg"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
-      rating : "four"
-      
+      content : "Prometech has been instrumental in helping us develop cutting-edge software solutions. Their expertise and dedication to quality have exceeded our expectations."
+
     # slider item loop
     - name : "Mark Dinn"
-      designation : "CEO,3D Coders"
+      designation : "CEO, 3D Coders"
       image : "images/testimonial/user-1.jpg"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
-      rating : "five"
+      content : "Working with Prometech has been a game-changer for our business. Their team's technical skills and professionalism have made a significant impact on our projects."
 
-
-################################## Pricing ################################
+############################## Pricing ################################
 pricing:
-  enable : true
+  enable : false
   # pricing data comes from "data/pricing"
 
 ############################# Contact #################################
