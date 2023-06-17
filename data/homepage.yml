@@ -80,7 +80,7 @@ aboutApp:
 
 #################################### Testimonial ##########################
 testimonial:
-  enable : true
+  enable : false
   title : "What **Peoples Says** About Us"
   sliderItem:
     # slider item loop
