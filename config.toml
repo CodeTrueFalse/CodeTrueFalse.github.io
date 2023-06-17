@@ -68,10 +68,10 @@ theme = "gosaas-hugo"
   URL = "team"
   weight = 4
   
-  [[menu.footer]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
+#  [[menu.footer]]
+#  name = "Pricing"
+#  URL = "pricing"
+#  weight = 5
     
   [[menu.footer]]
   name = "Contact"
