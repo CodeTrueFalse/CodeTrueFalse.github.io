@@ -8,9 +8,9 @@ banner:
     Prometech is a startup created by two passionate French engineering students. We specialize in technology and innovation, and we're here to help you bring your ideas to life. Whether you need a cloud-based scraping tool or an AI-driven pentesting tool, we have the expertise to build it for you.
 
   button:
-    enable : false
+    enable : true
     label : "Get Started"
-    link : "#"
+    link : "contact"
 
 ############################# Clients logo #################################
 clientsLogo:
