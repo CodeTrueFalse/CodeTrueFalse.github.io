@@ -5,7 +5,7 @@ banner:
   image : "images/illustrations/banner-img.png"
   title : "Let's **Build Your Project** Together!"
   content : >
-    Prometech is a startup created by two passionate French engineering students. We specialize in technology and innovation, and we're here to help you bring your ideas to life. Whether you need a cloud-based scraping tool or an AI-driven pentesting tool, we have the expertise to build it for you.
+    TrueFalse is a startup created by two passionate French engineering students. We specialize in technology and innovation, and we're here to help you bring your ideas to life. Whether you need a cloud-based scraping tool or an AI-driven pentesting tool, we have the expertise to build it for you.
 
   button:
     enable : true
@@ -35,7 +35,7 @@ about:
   enable: true
   title: "What We Can Do for You?"
   image: "images/illustrations/about-img.png"
-  content: "**Prometech** is a startup created by two passionate French engineering students who are dedicated to **technology and innovation**. We offer a range of services to help you bring your projects to life. Our expertise includes building **cloud-based scraping tools** and **AI-driven pentesting tools**. We strive to deliver **high-quality solutions** that meet your unique needs."
+  content: "**TrueFalse** is a startup created by two passionate French engineering students who are dedicated to **technology and innovation**. We offer a range of services to help you bring your projects to life. Our expertise includes building **cloud-based scraping tools** and **AI-driven pentesting tools**. We strive to deliver **high-quality solutions** that meet your unique needs."
 
   button:
     enable : true
@@ -81,13 +81,13 @@ testimonial:
     - name : "John Doe"
       designation : "CEO, 3D Coders"
       image : "images/testimonial/user-1.jpg"
-      content : "Prometech has been instrumental in helping us develop cutting-edge software solutions. Their expertise and dedication to quality have exceeded our expectations."
+      content : "TrueFalse has been instrumental in helping us develop cutting-edge software solutions. Their expertise and dedication to quality have exceeded our expectations."
 
     # slider item loop
     - name : "Mark Dinn"
       designation : "CEO, 3D Coders"
       image : "images/testimonial/user-1.jpg"
-      content : "Working with Prometech has been a game-changer for our business. Their team's technical skills and professionalism have made a significant impact on our projects."
+      content : "Working with TrueFalse has been a game-changer for our business. Their team's technical skills and professionalism have made a significant impact on our projects."
 
 ############################## Pricing ################################
 pricing:

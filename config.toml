@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://www.prometech.in/"
+baseURL = "https://www.truefalse.fr/"
 languageCode = "en-us"
-title = "Prometech"
+title = "TrueFalse"
 theme = "gosaas-hugo"
 
 ############################# Plugins ##############################
@@ -84,8 +84,8 @@ theme = "gosaas-hugo"
 logo = "images/logo_1.png"
 home = "Home"
 # Meta data
-description = "Prometech Website"
-author = "Prometech"
+description = "TrueFalse Website"
+author = "TrueFalse"
 # Google Analitycs
 googleAnalitycsID = "G-GZMDLKS1TV"
 
@@ -105,11 +105,11 @@ googleAnalitycsID = "G-GZMDLKS1TV"
 ############################### social links ############################
 [[params.social]]
 name = "Github"
-link = "https://www.github.com/CodePrometech"
+link = "https://www.github.com/CodeTrueFalse"
 
 [[params.social]]
 name = "Linkedin"
-link = "https://www.linkedin.com/company/itprometech"
+link = "https://www.linkedin.com/company/truefalsefr"
 
 
 ########################### footer call to action #####################

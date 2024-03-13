@@ -4,11 +4,11 @@ about:
   aboutItem:
     - title: "Who We Are"
       image: "images/illustrations/about-img.png"
-      content: "Prometech is a startup founded by two **passionate French engineering students** with a strong drive for **technology and innovation**. We are dedicated to pushing the boundaries of what's possible and creating cutting-edge solutions that make a difference."
+      content: "TrueFalse is a startup founded by two **passionate French engineering students** with a strong drive for **technology and innovation**. We are dedicated to pushing the boundaries of what's possible and creating cutting-edge solutions that make a difference."
 
     - title: "Our Projects"
       image: "images/illustrations/about-img-2.png"
-      content: "At Prometech, we are currently working on exciting projects that demonstrate our expertise and creativity. One of our flagship projects is an **AI Pentesting Tool**, which leverages **artificial intelligence techniques** to identify and address vulnerabilities in software systems. Additionally, we are developing a **cloud-based Scraping Tool** that automates data extraction from various sources, providing valuable insights for businesses and researchers."
+      content: "At TrueFalse, we are currently working on exciting projects that demonstrate our expertise and creativity. One of our flagship projects is an **AI Pentesting Tool**, which leverages **artificial intelligence techniques** to identify and address vulnerabilities in software systems. Additionally, we are developing a **cloud-based Scraping Tool** that automates data extraction from various sources, providing valuable insights for businesses and researchers."
 
 
 
