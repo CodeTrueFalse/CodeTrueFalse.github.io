@@ -9,7 +9,7 @@ team:
     # team member loop
     - name : "Hugo Sibony"
       image : "images/team/hugo_sibony.png"
-      designation : "Co-Founder & CEO | Developer"
+      designation : "Co-Founder & CEO/CTO"
       email : "hugo@hugosibony.com"
       socialLinks:
         - icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
@@ -25,7 +25,7 @@ team:
     # team member loop
     - name : "Maxence Leclercq"
       image : "images/team/maxence_leclercq.png"
-      designation : "Co-Founder & COO | Marketing"
+      designation : "Co-Founder & COO"
       email : "maxence.leclercq297@gmail.com"
       socialLinks:
         - icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
@@ -33,4 +33,12 @@ team:
           
         - icon : "ti-github" # themify icon pack https://themify.me/themify-icons
           link : "https://github.com/Cargaison"
-          
+
+    # team member loop
+    - name : "Ilyes Benahmed"
+      image : "images/team/ilyes_benahmed.png"
+      designation : "CFO"
+      email : "mail_ilyes_benahmed"
+      socialLinks:
+        - icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/ilyes-benahmed-395a20251/"
