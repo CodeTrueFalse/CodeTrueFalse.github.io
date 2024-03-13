@@ -17,6 +17,10 @@ team:
           
         - icon : "ti-github" # themify icon pack https://themify.me/themify-icons
           link : "https://github.com/KazeTachinuu"
+
+        - icon : "ti-link"
+          link : "https://www.hugosibony.com"
+
           
     # team member loop
     - name : "Maxence Leclercq"
