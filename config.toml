@@ -124,7 +124,7 @@ link = "contact"
 ############################ footer ##############################
 [params.footer]
 bgImage = "images/backgrounds/footer-bg.png"
-content = "Designed and Developed by [Hugo Sibony](https://hugosibony.com)"
+content = "Designed and Developed by [Hugo Sibony](https://www.hugosibony.com)"
 
 # card we accept
 [[params.footer.card]]
