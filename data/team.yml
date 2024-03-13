@@ -38,7 +38,7 @@ team:
     - name : "Ilyes Benahmed"
       image : "images/team/ilyes_benahmed.png"
       designation : "CFO"
-      email : "mail_ilyes_benahmed"
+      email : "benilyes.tach@gmail.com"
       socialLinks:
         - icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/ilyes-benahmed-395a20251/"
