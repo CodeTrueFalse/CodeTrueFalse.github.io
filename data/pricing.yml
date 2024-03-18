@@ -43,5 +43,5 @@ pricing:
 
 ################################## About App ##############################
 aboutApp:
-  enable: true
+  enable: false
   # about app data coming from 'data/homepage.yml'
