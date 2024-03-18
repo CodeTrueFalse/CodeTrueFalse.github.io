@@ -1,33 +1,47 @@
 ################################## Pricing ################################
 pricing:
-  enable : false
-  title : "Choose The **Best Plan** For <br> Your Business"
-  pricingTable :
+  enable: true
+  title: "Find the Perfect Plan for Your Business"
+  pricingTable:
     # pricing table loop
-    - name : "Starter Plan"
-      price : "$29"
-      content : "**1 year** of support and updates for **1 website**"
+    - name: "Starter Plan"
+      price: "€29"
+      type: "/month/site"
+      fee: "One-time fee: €300"
+      content: "Access to **Basic Scrapping** support"
+      customizedSupport: true
+      comprehensiveSupport: false
+      advancedFeatures: false
       button:
-        label : "Buy now"
-        link : "#"
-        
+        label: "Get Started"
+        link: "#"
+
     # pricing table loop
-    - name : "Advance Plan"
-      price : "$49"
-      content : "**1 year** of support and updates for **1 website**"
+    - name: "Advance Plan"
+      price: "€49"
+      type: "/month/site"
+      fee: "One-time fee: €300"
+      content: "**Starter Plan** + **Advanced Features**"
+      customizedSupport: true
+      comprehensiveSupport: true
+      advancedFeatures: true
       button:
-        label : "Buy now"
-        link : "#"
-        
+        label: "Get Started"
+        link: "#"
+
     # pricing table loop
-    - name : "Pro Plan"
-      price : "$69"
-      content : "**1 year** of support and updates for **1 website**"
+    - name: "Enterprise Plan"
+      price: "Custom"
+      fee: ""
+      content: "Tailored solution for enterprises with multiple websites, includes personalized support and scalability options."
+      customizedSupport: true
+      comprehensiveSupport: true
+      advancedFeatures: true
       button:
-        label : "Buy now"
-        link : "#"
+        label: "Contact Us"
+        link: "#"
 
 ################################## About App ##############################
 aboutApp:
-  enable : true
+  enable: true
   # about app data coming from 'data/homepage.yml'

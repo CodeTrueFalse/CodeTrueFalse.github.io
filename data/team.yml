@@ -1,44 +1,41 @@
 ################################# team ###################################
 team:
-  title : "Our **Team** Members"
-  subtitle : >
-    TrueFalse is a startup created by two french engineering students whom are passionate about technology and innovation.  
-
-    We are currently working on a few projects such as an **AI Pentesting Tool** and a **Scraping Tool**.
+  title: "Meet Our Team"
+  subtitle: >
+    TrueFalse is driven by a passionate team of French engineering students dedicated to technology and innovation. Currently, we're focused on developing innovative projects including an AI Pentesting Tool and a Scraping Tool.
   teamMember:
     # team member loop
-    - name : "Hugo Sibony"
-      image : "images/team/hugo_sibony.png"
-      designation : "Co-Founder & CEO/CTO"
-      email : "hugo@hugosibony.com"
+    - name: "Hugo Sibony"
+      image: "images/team/hugo_sibony.png"
+      designation: "Co-Founder & CEO/CTO"
+      email: "hugo@hugosibony.com"
       socialLinks:
-        - icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "https://www.linkedin.com/in/hsibony/"
-          
-        - icon : "ti-github" # themify icon pack https://themify.me/themify-icons
-          link : "https://github.com/KazeTachinuu"
+        - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link: "https://www.linkedin.com/in/hsibony/"
 
-        - icon : "ti-link"
-          link : "https://www.hugosibony.com"
+        - icon: "ti-github" # themify icon pack https://themify.me/themify-icons
+          link: "https://github.com/KazeTachinuu"
 
-          
-    # team member loop
-    - name : "Maxence Leclercq"
-      image : "images/team/maxence_leclercq.png"
-      designation : "Co-Founder & COO"
-      email : "maxence.leclercq297@gmail.com"
-      socialLinks:
-        - icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "https://www.linkedin.com/in/maxence-leclercq-94195b222/"
-          
-        - icon : "ti-github" # themify icon pack https://themify.me/themify-icons
-          link : "https://github.com/Cargaison"
+        - icon: "ti-link"
+          link: "https://www.hugosibony.com"
 
     # team member loop
-    - name : "Ilyes Benahmed"
-      image : "images/team/ilyes_benahmed.png"
-      designation : "CFO"
-      email : "benilyes.tach@gmail.com"
+    - name: "Maxence Leclercq"
+      image: "images/team/maxence_leclercq.png"
+      designation: "Co-Founder & COO"
+      email: "maxence.leclercq297@gmail.com"
       socialLinks:
-        - icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "https://www.linkedin.com/in/ilyes-benahmed-395a20251/"
+        - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link: "https://www.linkedin.com/in/maxence-leclercq-94195b222/"
+
+        - icon: "ti-github" # themify icon pack https://themify.me/themify-icons
+          link: "https://github.com/Cargaison"
+
+    # team member loop
+    - name: "Ilyes Benahmed"
+      image: "images/team/ilyes_benahmed.png"
+      designation: "CFO"
+      email: "benilyes.tach@gmail.com"
+      socialLinks:
+        - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link: "https://www.linkedin.com/in/ilyes-benahmed-395a20251/"

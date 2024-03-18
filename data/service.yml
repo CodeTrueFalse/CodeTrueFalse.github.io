@@ -1,31 +1,41 @@
 ################################ Service ##################################
 service:
   enable: true
-  title: "How Does Our Service Work?"
-  subtitle: "We follow a simple yet effective process to deliver the best possible results to our clients."
+  title: "Crafting Experiences, One Project at a Time"
+  subtitle: "At TrueFalse, we believe in simplicity, elegance, and delivering experiences that delight."
   serviceItem:
-    - title: "Project Discussion"
+    - title: "Visionary Discussions"
       icon: "ti-comments"
       iconColor: "primary"
-      content: "We engage in thorough discussions with our clients to understand their project requirements."
+      content: "We engage in visionary discussions to understand our clients' aspirations deeply."
 
-    - title: "Project Analysis"
+    - title: "Innovative Analysis"
       icon: "ti-thought"
       iconColor: "secondary"
-      content: "We analyze the project in detail, aiming to identify the best possible solutions for our clients."
+      content: "We dissect projects with relentless innovation, challenging assumptions to find elegant solutions."
 
-    - title: "Project Development"
+    - title: "Elegant Development"
       icon: "ti-bar-chart"
       iconColor: "tertiary"
-      content: "Once the analysis is complete, we commence project development, striving for timely completion."
+      content: "We craft every pixel with precision, striving for simplicity and elegance in our development process."
 
-    - title: "Project Completion"
+    - title: "Transformational Completion"
       icon: "ti-check-box"
       iconColor: "secondary"
-      content: "After finishing the project, we deliver it to our clients and collect their valuable feedback."
-    
+      content: "Our projects aren't just deliveries; they're transformations that empower our clients to shape the future."
 
 ################################## About App ##############################
 aboutApp:
-  enable : true
-  # about app data coming from 'data/homepage.yml'
+  enable: true
+  appItem:
+    - title: "Reimagining Possibilities"
+      image: "images/about-app/app-screen-1.png"
+      content: "TrueFalse redefines possibilities, challenging the status quo to inspire innovation and create a better future."
+
+    - title: "Simplicity in Complexity"
+      image: "images/about-app/app-screen-2.png"
+      content: "We bring simplicity to complexity, distilling ideas into intuitive experiences that feel natural and effortless."
+
+    - title: "Empowering Connections"
+      image: "images/about-app/app-screen-3.png"
+      content: "Through our work, we forge connections that empower individuals and organizations to make a meaningful impact."

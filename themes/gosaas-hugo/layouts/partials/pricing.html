@@ -8,13 +8,22 @@
       {{ range .pricingTable }}
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
         <div class="card text-center pricing-table">
-          <img src="{{`images/backgrounds/pricing-table-bg.png` | absURL }}" class="img-fluid pricing-table-bg" alt="">
+          <img
+            src="{{`images/backgrounds/pricing-table-bg.png` | absURL }}"
+            class="img-fluid pricing-table-bg"
+            alt=""
+          />
           <div class="card-body">
-            <h4 class="mb-4">{{ .title | markdownify }}</h4>
-            <p class="text-dark mb-4"><span class="h1">{{ .price }}</span>/month</p>
-            <p class="mb-5">{{ .content | markdownify }}</p>
+            <h4 class="mb-4">{{ .name | markdownify }}</h4>
+            <p class="text-dark mb-3">
+              <span class="h1">{{ .price }}</span>{{ .type }}
+            </p>
+            <p class="mb-4">{{ .content | markdownify }}</p>
+            <p class="text-muted mb-4">{{ .fee }}</p>
             {{ with .button }}
-            <a href="{{ .link | safeURL }}" class="btn btn-outline-tertiary">{{ .label }}</a>
+            <a href="{{ .link | safeURL }}" class="btn btn-outline-tertiary"
+              >{{ .label }}</a
+            >
             {{ end }}
           </div>
         </div>
@@ -23,4 +32,60 @@
     </div>
   </div>
 </section>
-{{ end }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="title">Plan Table</h3>
+      </div>
+      <div class="col-lg-12">
+        <div class="table-responsive">
+          <table class="table table-bordered table-lg">
+            <thead>
+              <tr class="text-center bg-tertiary text-white">
+                <th class="bg-tertiary text-white">Feature</th>
+                {{ range .pricingTable }}
+                <th>{{ .name }}</th>
+                {{ end }}
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-weight-bold bg-light">Customized Support</td>
+                {{ range .pricingTable }}
+                <td class="text-center">
+                  {{ if .customizedSupport }}<span class="text-success">✔</span
+                  >{{ else }}<span class="text-danger">✘</span>{{ end }}
+                </td>
+                {{ end }}
+              </tr>
+              <tr>
+                <td class="font-weight-bold bg-light">
+                  Comprehensive Support & Updates
+                </td>
+                {{ range .pricingTable }}
+                <td class="text-center">
+                  {{ if .comprehensiveSupport }}<span class="text-success"
+                    >✔</span
+                  >{{ else }}<span class="text-danger">✘</span>{{ end }}
+                </td>
+                {{ end }}
+              </tr>
+              <tr>
+                <td class="font-weight-bold bg-light">Advanced Features</td>
+                {{ range .pricingTable }}
+                <td class="text-center">
+                  {{ if .advancedFeatures }}<span class="text-success">✔</span
+                  >{{ else }}<span class="text-danger">✘</span>{{ end }}
+                </td>
+                {{ end }}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

@@ -1,100 +1,99 @@
 ############################### Banner #################################
 banner:
-  enable : true
-  bgImage : "images/backgrounds/banner-bg.png"
-  image : "images/illustrations/banner-img.png"
-  title : "Let's **Build Your Project** Together!"
-  content : >
-    TrueFalse is a startup created by two passionate French engineering students. We specialize in technology and innovation, and we're here to help you bring your ideas to life. Whether you need a cloud-based scraping tool or an AI-driven pentesting tool, we have the expertise to build it for you.
+  enable: true
+  bgImage: "images/backgrounds/banner-bg.png"
+  image: "images/illustrations/banner-img.png"
+  title: "Empowering Innovation with **TrueFalse**"
+  content: >
+    **TrueFalse** is a startup founded by two passionate French engineering students, driven by our commitment to **innovation** and **technology**. We specialize in developing cutting-edge solutions tailored to **your unique needs**. Whether you're looking for AI-driven pentesting tools, cloud-based scraping solutions, or other innovative software, we're here to turn your ideas into reality.
 
   button:
-    enable : true
-    label : "Get Started"
-    link : "contact"
+    enable: true
+    label: "Get Started"
+    link: "contact"
 
 ############################# Clients logo #################################
 clientsLogo:
-  enable : false
+  enable: false
   logos:
-    - logo : "images/clients-logo/clients-logo-1.png"
-    - logo : "images/clients-logo/clients-logo-2.png"
-    - logo : "images/clients-logo/clients-logo-3.png"
-    - logo : "images/clients-logo/clients-logo-4.png"
-    - logo : "images/clients-logo/clients-logo-5.png"
-    - logo : "images/clients-logo/clients-logo-6.png"
-    - logo : "images/clients-logo/clients-logo-7.png"
-    - logo : "images/clients-logo/clients-logo-8.png"
+    - logo: "images/clients-logo/clients-logo-1.png"
+    - logo: "images/clients-logo/clients-logo-2.png"
+    - logo: "images/clients-logo/clients-logo-3.png"
+    - logo: "images/clients-logo/clients-logo-4.png"
+    - logo: "images/clients-logo/clients-logo-5.png"
+    - logo: "images/clients-logo/clients-logo-6.png"
+    - logo: "images/clients-logo/clients-logo-7.png"
+    - logo: "images/clients-logo/clients-logo-8.png"
 
 ################################ Service ##################################
 service:
-  enable : true
+  enable: true
   # service data comes from 'data/service.yml'
 
 ######################################## About #############################
 about:
   enable: true
-  title: "What We Can Do for You?"
+  title: "What We Do"
   image: "images/illustrations/about-img.png"
-  content: "**TrueFalse** is a startup created by two passionate French engineering students who are dedicated to **technology and innovation**. We offer a range of services to help you bring your projects to life. Our expertise includes building **cloud-based scraping tools** and **AI-driven pentesting tools**. We strive to deliver **high-quality solutions** that meet your unique needs."
+  content: "At TrueFalse, we leverage our expertise in technology and innovation to provide a range of services aimed at helping you achieve your goals. From crafting custom AI-driven pentesting tools to developing sophisticated cloud-based scraping solutions, we're dedicated to delivering high-quality software that meets your unique needs."
 
   button:
-    enable : true
-    label : "Know More"
-    link : "about"
+    enable: true
+    label: "Know More"
+    link: "about"
 
 ##################################### Call to Action #######################
 cta:
-  enable : true
-  bgImage : "images/backgrounds/footer-bg.png"
-  title : "Want to Build Your Projects with Us? Let's Talk About It!"
+  enable: true
+  bgImage: "images/backgrounds/footer-bg.png"
+  title: "Ready to Bring Your Ideas to Life?"
   button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
+    enable: true
+    label: "Contact Us"
+    link: "contact"
 
 ################################## About App ##############################
 aboutApp:
   enable: true
   appItem:
     # about app item loop
-    - title: "Harnessing Innovation for **Your Success**"
+    - title: "Innovative Solutions for Every Challenge"
       image: "images/about-app/app-screen-1.png"
-      content: "As passionate engineering students, we are dedicated to **harnessing the power of innovation** to drive your success. We offer **cutting-edge solutions** that leverage advanced technologies to solve complex challenges and help your business thrive."
+      content: "Our team at TrueFalse is committed to harnessing the power of innovation to solve complex challenges. Whether you need to enhance your cybersecurity measures or streamline your data collection process, we offer innovative solutions tailored to your needs."
 
     # about app item loop
-    - title: "Customized Solutions Tailored to **Your Needs**"
+    - title: "Customized Software for Your Business"
       image: "images/about-app/app-screen-2.png"
-      content: "We understand that every business is unique. That's why we offer **customized solutions** tailored to your specific needs and requirements. We work closely with you to analyze your challenges and deliver personalized software solutions that **address your pain points effectively**."
+      content: "We understand that every business is unique, which is why we take a personalized approach to software development. From initial concept to final delivery, we work closely with you to ensure our solutions align with your business objectives."
 
     # about app item loop
-    - title: "Collaborative Approach for **Exceptional Results**"
+    - title: "Collaboration for Success"
       image: "images/about-app/app-screen-3.png"
-      content: "By choosing to work with us, you benefit from a **collaborative approach**. As students, we are eager to learn, adapt, and **collaborate closely** with our clients. Together, we can achieve **exceptional results**, co-creating innovative software solutions that drive your business forward."
+      content: "At TrueFalse, we believe in the power of collaboration. By partnering with us, you gain access to a team of dedicated professionals who are committed to your success. Together, we can turn your vision into reality."
 
-
-#################################### Testimonial ##########################
+############################## Testimonial ##########################
 testimonial:
-  enable : false
-  title : "What People Say About Us"
+  enable: false
+  title: "What People Say About Us"
   sliderItem:
     # slider item loop
-    - name : "John Doe"
-      designation : "CEO, 3D Coders"
-      image : "images/testimonial/user-1.jpg"
-      content : "TrueFalse has been instrumental in helping us develop cutting-edge software solutions. Their expertise and dedication to quality have exceeded our expectations."
+    - name: "John Doe"
+      designation: "CEO, 3D Coders"
+      image: "images/testimonial/user-1.jpg"
+      content: "TrueFalse has been instrumental in helping us develop cutting-edge software solutions. Their expertise and dedication to quality have exceeded our expectations."
 
     # slider item loop
-    - name : "Mark Dinn"
-      designation : "CEO, 3D Coders"
-      image : "images/testimonial/user-1.jpg"
-      content : "Working with TrueFalse has been a game-changer for our business. Their team's technical skills and professionalism have made a significant impact on our projects."
+    - name: "Mark Dinn"
+      designation: "CEO, 3D Coders"
+      image: "images/testimonial/user-1.jpg"
+      content: "Working with TrueFalse has been a game-changer for our business. Their team's technical skills and professionalism have made a significant impact on our projects."
 
 ############################## Pricing ################################
 pricing:
-  enable : false
+  enable: false
   # pricing data comes from "data/pricing"
 
 ############################# Contact #################################
 contact:
-  enable : true
+  enable: true
   # contact data comes from "data/contact"
