@@ -8,8 +8,8 @@ pricing:
       price: "€29"
       type: "/month/site"
       fee: "One-time fee: €300"
-      content: "Access to **Basic Scrapping** support"
-      basicScrapping: true
+      content: "Access to **Basic Scraping** support"
+      basicScraping: true
       customizedSupport: true
       comprehensiveSupport: false
       advancedFeatures: false
@@ -23,7 +23,7 @@ pricing:
       type: "/month/site"
       fee: "One-time fee: €300"
       content: "**Starter Plan** + **Advanced Features**"
-      basicScrapping: true
+      basicScraping: true
       customizedSupport: true
       comprehensiveSupport: true
       advancedFeatures: true
@@ -36,7 +36,7 @@ pricing:
       price: "Custom"
       fee: ""
       content: "Tailored solution for enterprises with multiple websites, includes personalized support and scalability options."
-      basicScrapping: true
+      basicScraping: true
       customizedSupport: true
       comprehensiveSupport: true
       advancedFeatures: true

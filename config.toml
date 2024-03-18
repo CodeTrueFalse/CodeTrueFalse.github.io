@@ -83,9 +83,14 @@ theme = "gosaas-hugo"
 [params]
 logo = "images/logo_truefalse.png"
 home = "Home"
+
 # Meta data
-description = "TrueFalse Website"
+description = "TrueFalse - Innovate your projects with cutting-edge technology solutions. Specialized in AI, data scraping, and cybersecurity."
 author = "TrueFalse"
+keywords = "TrueFalse, True False, technology, French Tech, AI, scraping, web development, startup, cybersecurity"
+robots = "index, follow"
+canonicalURL = "https://www.truefalse.fr/"
+
 # Google Analitycs
 googleAnalitycsID = "G-GZMDLKS1TV"
 

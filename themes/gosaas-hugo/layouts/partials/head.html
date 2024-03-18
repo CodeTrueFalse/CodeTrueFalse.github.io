@@ -2,30 +2,46 @@
   <meta charset="utf-8">
   <title>{{ .Site.Title }}</title>
 
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Mobile Responsive Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+
+  <!-- Description Meta -->
+  <meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+
+  <!-- Author Meta -->
   {{ with .Site.Params.author }}
-  <meta name="author" content="{{ . }}">{{ end }}
-  {{ hugo.Generator }}
-
-  {{ "<!-- theme meta -->" | safeHTML }}
-  <meta name="theme-name" content="gosaas-hugo" />
-
-  {{ "<!-- plugins -->" | safeHTML }}
-  {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .URL | absURL }} ">
+  <meta name="author" content="{{ . }}">
   {{ end }}
 
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  <!-- Keywords Meta -->
+  {{ with .Site.Params.keywords }}
+  <meta name="keywords" content="{{ . }}">
+  {{ end }}
+
+  <!-- robots Meta -->
+  {{ with .Site.Params.robots }}
+  <meta name="robots" content="{{ . }}">
+  {{ end }}
+
+  <!-- Hugo Generator -->
+  {{ hugo.Generator }}
+
+  <!-- Theme Meta -->
+  <meta name="theme-name" content="gosaas-hugo" />
+
+  <!-- CSS Plugins -->
+  {{ range .Site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .URL | absURL }}">
+  {{ end }}
+
+  <!-- Main Stylesheet -->
   {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
-  {{ "<!--Favicon-->" | safeHTML }}
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-1.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32-1.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16-1.png">
   <link rel="manifest" href="/site.webmanifest">
-
 </head>
