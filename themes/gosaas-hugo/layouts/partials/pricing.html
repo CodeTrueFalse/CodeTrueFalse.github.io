@@ -8,11 +8,8 @@
       {{ range .pricingTable }}
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
         <div class="card text-center pricing-table">
-          <img
-            src="{{`images/backgrounds/pricing-table-bg.png` | absURL }}"
-            class="img-fluid pricing-table-bg"
-            alt=""
-          />
+          <img src="{{`images/backgrounds/pricing-table-bg.png` | absURL }}" class="img-fluid pricing-table-bg"
+            alt="" />
           <div class="card-body">
             <h4 class="mb-4">{{ .name | markdownify }}</h4>
             <p class="text-dark mb-3">
@@ -21,9 +18,7 @@
             <p class="mb-4">{{ .content | markdownify }}</p>
             <p class="text-muted mb-4">{{ .fee }}</p>
             {{ with .button }}
-            <a href="{{ .link | safeURL }}" class="btn btn-outline-tertiary"
-              >{{ .label }}</a
-            >
+            <a href="{{ .link | safeURL }}" class="btn btn-outline-tertiary">{{ .label }}</a>
             {{ end }}
           </div>
         </div>
@@ -55,8 +50,8 @@
                 <td class="font-weight-bold bg-light">Scrapping Tools</td>
                 {{ range .pricingTable }}
                 <td class="text-center">
-                  {{ if .basicScrapping }}<span class="text-success">✔</span
-                  >{{ else }}<span class="text-danger">✘</span>{{ end }}
+                  {{ if .basicScrapping }}<span class="text-success">✔</span>{{ else }}<span
+                    class="text-danger">✘</span>{{ end }}
                 </td>
                 {{ end }}
               </tr>
@@ -64,8 +59,8 @@
                 <td class="font-weight-bold bg-light">Customized Support</td>
                 {{ range .pricingTable }}
                 <td class="text-center">
-                  {{ if .customizedSupport }}<span class="text-success">✔</span
-                  >{{ else }}<span class="text-danger">✘</span>{{ end }}
+                  {{ if .customizedSupport }}<span class="text-success">✔</span>{{ else }}<span
+                    class="text-danger">✘</span>{{ end }}
                 </td>
                 {{ end }}
               </tr>
@@ -75,9 +70,8 @@
                 </td>
                 {{ range .pricingTable }}
                 <td class="text-center">
-                  {{ if .comprehensiveSupport }}<span class="text-success"
-                    >✔</span
-                  >{{ else }}<span class="text-danger">✘</span>{{ end }}
+                  {{ if .comprehensiveSupport }}<span class="text-success">✔</span>{{ else }}<span
+                    class="text-danger">✘</span>{{ end }}
                 </td>
                 {{ end }}
               </tr>
@@ -85,8 +79,8 @@
                 <td class="font-weight-bold bg-light">Advanced Features</td>
                 {{ range .pricingTable }}
                 <td class="text-center">
-                  {{ if .advancedFeatures }}<span class="text-success">✔</span
-                  >{{ else }}<span class="text-danger">✘</span>{{ end }}
+                  {{ if .advancedFeatures }}<span class="text-success">✔</span>{{ else }}<span
+                    class="text-danger">✘</span>{{ end }}
                 </td>
                 {{ end }}
               </tr>
