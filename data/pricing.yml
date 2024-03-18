@@ -17,7 +17,7 @@ pricing:
         link: "#"
 
     # pricing table loop
-    - name: "Advance Plan"
+    - name: "Advanced Plan"
       price: "€49"
       type: "/month/site"
       fee: "One-time fee: €300"
