@@ -5,28 +5,14 @@ pricing:
   pricingTable:
     # pricing table loop
     - name: "Starter Plan"
-      price: "€29"
-      type: "/month/site"
+      price: "€80"
+      type: "/month"
       fee: "One-time fee: €300"
       content: "Access to **Basic Scraping** support"
       basicScraping: true
-      customizedSupport: true
+      customizedSupport: false
       comprehensiveSupport: false
       advancedFeatures: false
-      button:
-        label: "Get Started"
-        link: "#"
-
-    # pricing table loop
-    - name: "Advanced Plan"
-      price: "€49"
-      type: "/month/site"
-      fee: "One-time fee: €300"
-      content: "**Starter Plan** + **Advanced Features**"
-      basicScraping: true
-      customizedSupport: true
-      comprehensiveSupport: true
-      advancedFeatures: true
       button:
         label: "Get Started"
         link: "#"
