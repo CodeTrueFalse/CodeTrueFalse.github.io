@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-
 <!-- banner -->
 {{ if .Site.Data.homepage.banner.enable }} {{ with .Site.Data.homepage.banner }}
 <section class="position-relative banner">
@@ -9,7 +8,7 @@
     <div class="row align-items-center">
       <div class="col-lg-8 text-center text-lg-left mb-5 mb-lg-0">
         <h1 class="title">{{ .title | markdownify }}</h1>
-        <p>{{ .content | markdownify }}</p>
+        <p style="font-size: 1.1rem; color: #333;">{{ .content | markdownify }}</p>
         {{ if .button.enable }} {{ with .button }}
         <a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }} {{ end }}
@@ -52,7 +51,7 @@ end }}
     <div class="row align-items-center">
       <div class="col-lg-6 order-2 order-lg-1 text-center text-lg-left">
         <h2 class="title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <p style="font-size: 1.1rem; color: #333;">{{ .content | markdownify }}</p>
         {{ if .button }} {{ with .button }}
         <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }} {{ end }}
@@ -122,9 +121,7 @@ end }}
               class="mr-3 rounded-circle"
             />
             <div class="media-body">
-              <p class="lead text-dark font-weight-normal">
-                {{ .content | markdownify }}
-              </p>
+              <p class="lead text-dark font-weight-normal" style="font-size: 1.1rem;">{{ .content | markdownify }}</p>
               <h6>{{ .name }}</h6>
               <span>{{ .designation | markdownify }}</span>
               <ul class="list-inline rating {{ .rating | lower}} mt-3">
