@@ -1,17 +1,20 @@
 ################################## Pricing ################################
 pricing:
   enable: true
-  title: "Find the Perfect Plan for Your Business"
+  title: ""
   pricingTable:
     # pricing table loop
     - name: "Starter Plan"
       price: "€80"
       type: "/month"
       fee: "One-time fee: €300"
-      content: "Access to **Basic Scraping** support"
+      content: "* Up to **5 sites**\n
+                * Up to **8 Trackers**\n
+                * 1 Account"
       basicScraping: true
       customizedSupport: false
-      comprehensiveSupport: false
+      unlimitedTrackers: false
+      unlimitedSites: false
       advancedFeatures: false
       button:
         label: "Get Started"
@@ -21,14 +24,21 @@ pricing:
     - name: "Enterprise Plan"
       price: "Custom"
       fee: ""
-      content: "Tailored solution for enterprises with multiple websites, includes personalized support and scalability options."
+      content: "* **Unlimited** sites\n
+                * **Unlimited** Trackers\n
+                * Multiple Accounts\n
+                * **Search Engine** | Coming Soon"
       basicScraping: true
       customizedSupport: true
-      comprehensiveSupport: true
+      unlimitedTrackers: true
+      unlimitedSites: true
       advancedFeatures: true
       button:
         label: "Contact Us"
         link: "#"
+
+planTable:
+  enable: true
 
 ################################## About App ##############################
 aboutApp:

@@ -11,12 +11,14 @@
           <img src="{{`images/backgrounds/pricing-table-bg.png` | absURL }}" class="img-fluid pricing-table-bg"
             alt="" />
           <div class="card-body">
-            <h4 class="mb-4">{{ .name | markdownify }}</h4>
+            <h4 class="mb-4 text-center">{{ .name | markdownify }}</h4>
             <p class="text-dark mb-3">
               <span class="h1">{{ .price }}</span>{{ .type }}
             </p>
-            <p class="mb-4">{{ .content | markdownify }}</p>
             <p class="text-muted mb-4">{{ .fee }}</p>
+            <div class="text-left">
+              <p class="mb-4">{{ .content | markdownify }}</p>
+            </div>
             {{ with .button }}
             <a href="{{ .link | safeURL }}" class="btn btn-outline-tertiary">{{ .label }}</a>
             {{ end }}
@@ -66,11 +68,22 @@
               </tr>
               <tr>
                 <td class="font-weight-bold bg-light">
-                  Comprehensive Support & Updates
+                  Unlimited Trackers
                 </td>
                 {{ range .pricingTable }}
                 <td class="text-center">
-                  {{ if .comprehensiveSupport }}<span class="text-success">✔</span>{{ else }}<span
+                  {{ if .unlimitedTrackers }}<span class="text-success">✔</span>{{ else }}<span
+                    class="text-danger">✘</span>{{ end }}
+                </td>
+                {{ end }}
+              </tr>
+              <tr>
+                <td class="font-weight-bold bg-light">
+                  Unlimited Sites
+                </td>
+                {{ range .pricingTable }}
+                <td class="text-center">
+                  {{ if .unlimitedSites }}<span class="text-success">✔</span>{{ else }}<span
                     class="text-danger">✘</span>{{ end }}
                 </td>
                 {{ end }}
