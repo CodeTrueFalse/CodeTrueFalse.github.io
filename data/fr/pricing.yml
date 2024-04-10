@@ -1,0 +1,50 @@
+################################## Pricing ################################
+pricing:
+  enable: true
+  title: ""
+  features:
+    - name: "Outils de Scraping"
+      key: "basicScraping"
+    - name: "Support Personnalisé"
+      key: "customizedSupport"
+    - name: "Trackers Illimités"
+      key: "unlimitedTrackers"
+    - name: "Sites Illimités"
+      key: "unlimitedSites"
+    - name: "Fonctionnalités Avancées"
+      key: "advancedFeatures"
+
+  pricingTable:
+    # Boucle de la table de tarification
+    - name: "Plan de Démarrage"
+      price: "€80"
+      type: "/mois"
+      fee: "Frais uniques : €300"
+      content: "* Jusqu'à **5 sites**\n
+                * Jusqu'à **8 Trackers**\n
+                * 1 Compte"
+      basicScraping: true
+      customizedSupport: false
+      unlimitedTrackers: false
+      unlimitedSites: false
+      advancedFeatures: false
+      button:
+        label: "Commencer"
+        link: "#"
+
+    # Boucle de la table de tarification
+    - name: "Plan Entreprise"
+      price: "Custom"
+      fee: ""
+      content: "* Sites **illimités**\n
+                * Trackers **illimités**\n
+                * Comptes Multiples\n
+                * Moteur de Recherche **| Bientôt Disponible**"
+      basicScraping: true
+      customizedSupport: true
+      unlimitedTrackers: true
+      unlimitedSites: true
+      advancedFeatures: true
+      button:
+        label: "Nous Contacter"
+        link: "#"

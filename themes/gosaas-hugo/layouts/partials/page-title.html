@@ -5,12 +5,6 @@
     <div class="row">
       <div class="col-12 text-center">
         <h1 class="title">{{ .Title | markdownify }}</h1>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-transparent justify-content-center">
-            <li class="breadcrumb-item">{{ .Site.Params.home }}</li>
-            <li class="breadcrumb-item active" aria-current="page">{{ .Title  | markdownify }}</li>
-          </ol>
-        </nav>
       </div>
     </div>
   </div>

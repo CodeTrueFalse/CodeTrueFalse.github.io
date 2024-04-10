@@ -3,7 +3,8 @@
 {{ partial "page-title.html" . }}
 
 <!-- service -->
-{{ with .Site.Data.service.service }}
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.service.service }}
 <section class="section pb-4">
   <div class="container">
     <div class="row">
@@ -30,7 +31,7 @@
 <!-- /service -->
 
 <!-- about app -->
-{{ if .Site.Data.service.aboutApp.enable }}
+{{ if $myData.service.aboutApp.enable }}
 {{ partial "aboutApp.html" . }}
 {{ end }}
 <!-- /about app -->

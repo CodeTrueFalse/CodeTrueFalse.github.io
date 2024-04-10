@@ -2,7 +2,8 @@
 
 {{ partial "page-title.html" . }}
 
-{{ with .Site.Data.team.team }}
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.team.team }}
 <style>
 .team-member-image {
   width: 150px;
@@ -10,7 +11,7 @@
 }
 </style>
 
-<section class="section pb-0">
+<section class="section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center mb-5">

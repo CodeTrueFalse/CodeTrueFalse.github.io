@@ -1,0 +1,11 @@
+# French content
+about:
+  enable: true
+  aboutItem:
+    - title: "Qui Nous Sommes"
+      image: "images/illustrations/about-img.png"
+      content: "TrueFalse est une start-up dynamique fondée par deux étudiants en génie français visionnaires profondément passionnés par la technologie et l'innovation. Avec une quête incessante d'excellence, nous nous efforçons de repousser les limites de ce qui est possible pour créer des solutions impactantes et innovantes."
+
+    - title: "Nos Projets"
+      image: "images/illustrations/about-img-2.png"
+      content: "Chez TrueFalse, nous nous engageons à façonner l'avenir grâce à nos projets de pointe. Parmi nos efforts figure le développement d'un Outil de Test d'Intrusion basé sur l'IA, exploitant des techniques avancées d'intelligence artificielle pour identifier et atténuer les vulnérabilités logicielles. De plus, nous élaborons un Outil de Scraping basé sur le cloud, révolutionnant l'extraction de données pour fournir des informations précieuses aux entreprises et aux chercheurs."

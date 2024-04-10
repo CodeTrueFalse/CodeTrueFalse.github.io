@@ -1,0 +1,41 @@
+################################ Service ##################################
+service:
+  enable: true
+  title: "Créer des Expériences, Projet par Projet"
+  subtitle: "Chez TrueFalse, nous croyons en la simplicité, l'élégance et la livraison d'expériences qui enchantent."
+  serviceItem:
+    - title: "Discussions Visionnaires"
+      icon: "ti-comments"
+      iconColor: "primary"
+      content: "Nous nous engageons dans des discussions visionnaires pour comprendre profondément les aspirations de nos clients."
+
+    - title: "Analyse Innovante"
+      icon: "ti-thought"
+      iconColor: "secondary"
+      content: "Nous disséquons les projets avec une innovation implacable, remettant en question les hypothèses pour trouver des solutions élégantes."
+
+    - title: "Développement Élégant"
+      icon: "ti-bar-chart"
+      iconColor: "tertiary"
+      content: "Nous fabriquons chaque pixel avec précision, cherchant la simplicité et l'élégance dans notre processus de développement."
+
+    - title: "Réalisation Transformationnelle"
+      icon: "ti-check-box"
+      iconColor: "secondary"
+      content: "Nos projets ne sont pas seulement des livraisons ; ce sont des transformations qui permettent à nos clients de façonner l'avenir."
+
+################################## About App ##############################
+aboutApp:
+  enable: true
+  appItem:
+    - title: "Réinventer les Possibilités"
+      image: "images/about-app/app-screen-1.png"
+      content: "TrueFalse redéfinit les possibilités, remettant en question le statu quo pour inspirer l'innovation et créer un avenir meilleur."
+
+    - title: "Simplicité dans la Complexité"
+      image: "images/about-app/app-screen-2.png"
+      content: "Nous apportons la simplicité à la complexité, en distillant les idées dans des expériences intuitives qui semblent naturelles et sans effort."
+
+    - title: "Connexions Émancipatrices"
+      image: "images/about-app/app-screen-3.png"
+      content: "Grâce à notre travail, nous forgeons des connexions qui donnent aux individus et aux organisations le pouvoir de faire un impact significatif."

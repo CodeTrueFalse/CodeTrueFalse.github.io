@@ -2,6 +2,17 @@
 pricing:
   enable: true
   title: ""
+  features:
+    - name: "Scraping Tools"
+      key: "basicScraping"
+    - name: "Customized Support"
+      key: "customizedSupport"
+    - name: "Unlimited Trackers"
+      key: "unlimitedTrackers"
+    - name: "Unlimited Sites"
+      key: "unlimitedSites"
+    - name: "Advanced Features"
+      key: "advancedFeatures"
   pricingTable:
     # pricing table loop
     - name: "Starter Plan"
@@ -37,10 +48,3 @@ pricing:
         label: "Contact Us"
         link: "#"
 
-planTable:
-  enable: true
-
-################################## About App ##############################
-aboutApp:
-  enable: false
-  # about app data coming from 'data/homepage.yml'

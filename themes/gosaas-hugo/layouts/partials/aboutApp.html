@@ -1,4 +1,6 @@
-{{ with .Site.Data.homepage.aboutApp }}
+
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.homepage.aboutApp }}
 <section class="section pb-0">
   <div class="container">
     {{ range $i, $p := .appItem }}

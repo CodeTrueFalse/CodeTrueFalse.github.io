@@ -1,0 +1,78 @@
+############################### Bannière #################################
+banner:
+  enable: true
+  bgImage: "images/backgrounds/banner-bg.png"
+  image: "images/illustrations/banner-img.png"
+  title: "Donnez vie à vos idées avec **TrueFalse**"
+  content: >
+    **TrueFalse** est une startup fondée par deux étudiants ingénieurs français passionnés, animés par notre engagement envers l'**innovation** et la **technologie**. Nous sommes spécialisés dans le développement de solutions de pointe adaptées à **vos besoins uniques**. Que vous recherchiez des outils de pentesting pilotés par l'IA, des solutions de scraping basées sur le cloud, ou d'autres logiciels innovants, nous sommes là pour concrétiser vos idées.
+
+  button:
+    enable: true
+    label: "Commencez"
+    link: "contact"
+
+############################# Logos des clients ##############################
+clientsLogo:
+  enable: false
+  logos:
+    - logo: "images/clients-logo/clients-logo-1.png"
+    - logo: "images/clients-logo/clients-logo-2.png"
+    - logo: "images/clients-logo/clients-logo-3.png"
+    - logo: "images/clients-logo/clients-logo-4.png"
+    - logo: "images/clients-logo/clients-logo-5.png"
+    - logo: "images/clients-logo/clients-logo-6.png"
+    - logo: "images/clients-logo/clients-logo-7.png"
+    - logo: "images/clients-logo/clients-logo-8.png"
+
+################################ Services ##################################
+service:
+  enable: true
+  # Les données du service proviennent de 'data/service.yml'
+
+#################################### À propos ##############################
+about:
+  enable: true
+  title: "Ce que nous faisons"
+  image: "images/illustrations/about-img.png"
+  content: "Chez TrueFalse, nous mettons à profit notre expertise en technologie et en innovation pour fournir une gamme de services visant à vous aider à atteindre vos objectifs. De la création d'outils de pentesting pilotés par l'IA sur mesure au développement de solutions de scraping sophistiquées basées sur le cloud, nous sommes déterminés à fournir des logiciels de haute qualité qui répondent à vos besoins uniques."
+
+  button:
+    enable: true
+    label: "En savoir plus"
+    link: "about"
+
+##################################### Appel à l'action #######################
+cta:
+  enable: true
+  bgImage: "images/backgrounds/footer-bg.png"
+  title: "Prêt à donner vie à vos idées ?"
+  button:
+    enable: true
+    label: "Contactez-nous"
+    link: "contact"
+
+############################### À propos de l'application ##############################
+aboutApp:
+  enable: true
+  appItem:
+    # Boucle des éléments de l'application
+    - title: "Solutions innovantes pour chaque défi"
+      image: "images/about-app/app-screen-1.png"
+      content: "Notre équipe chez TrueFalse s'engage à exploiter le pouvoir de l'innovation pour résoudre des défis complexes. Que vous ayez besoin d'améliorer vos mesures de cybersécurité ou de rationaliser votre processus de collecte de données, nous proposons des solutions innovantes adaptées à vos besoins."
+
+    # Boucle des éléments de l'application
+    - title: "Logiciels personnalisés pour votre entreprise"
+      image: "images/about-app/app-screen-2.png"
+      content: "Nous comprenons que chaque entreprise est unique, c'est pourquoi nous adoptons une approche personnalisée du développement logiciel. De la conception initiale à la livraison finale, nous travaillons en étroite collaboration avec vous pour nous assurer que nos solutions sont alignées sur vos objectifs commerciaux."
+
+    # Boucle des éléments de l'application
+    - title: "Collaboration pour le succès"
+      image: "images/about-app/app-screen-3.png"
+      content: "Chez TrueFalse, nous croyons au pouvoir de la collaboration. En collaborant avec nous, vous avez accès à une équipe de professionnels dévoués qui sont engagés dans votre succès. Ensemble, nous pouvons concrétiser votre vision."
+
+
+############################## Tarification ##########################
+pricing:
+  enable: false
+  # Les données de tarification proviennent de "data

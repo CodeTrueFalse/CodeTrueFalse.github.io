@@ -1,4 +1,5 @@
-{{ with .Site.Data.service.service }}
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.service.service }}
 <section class="section pb-4">
   <div class="container">
     <div class="row">

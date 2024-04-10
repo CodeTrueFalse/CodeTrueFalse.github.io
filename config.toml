@@ -1,138 +1,135 @@
-######################## default configuration ####################
+######################## Base Configuration ########################
+
 baseURL = "https://www.truefalse.fr/"
-languageCode = "en-us"
-title = "TrueFalse"
 theme = "gosaas-hugo"
 
-############################# Plugins ##############################
+defaultContentLanguage = "en"
+
+# Enable i18n
+enableInlineShortcodes = true
+hasCJKLanguage = false
+
+
+# Configure the multilingual parameters
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    
+
+  [languages.fr]
+    languageName = "Français"
+    contentDir = "content/fr"
+
+  
+[Menu]
+  # Main Menu
+  [[menu.Main]]
+  identifier = 'home'
+  name = "Home"
+  url= "/"
+  weight = 1
+
+  [[menu.Main]]
+  identifier = 'about'
+  name = "About"
+  url= "/about/"
+  weight = 2
+
+  [[menu.Main]]
+  identifier = 'team'
+  name = "Team"
+  url= "/team/"
+  weight = 3
+
+  [[menu.Main]]
+  identifier = 'service'
+  name = "Service"
+  url= "/service/"
+  weight = 4
+
+
+  [[menu.Main]]
+  identifier = 'pricing'
+  name = "Pricing"
+  url= "/pricing/"
+  weight = 5
+
+  [[menu.Main]]
+  identifier = 'contact'
+  name = "Contact"
+  url= "/contact/"
+  weight = 6
+
+[params]
+  logo = "/images/logo_truefalse.png"
+
+# Navigation get start button
+[params.navButton]
+  enable = true
+  label = "Get A Quote"
+  link = "/contact/"
+
+######################## Plugin Configuration ########################
+
 [params.plugins]
 
-  # CSS Plugins
-  [[params.plugins.css]]
+[[params.plugins.css]]
   URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
+[[params.plugins.css]]
   URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
+[[params.plugins.css]]
   URL = "plugins/themify-icons/themify-icons.css"
 
-  # JS Plugins
-  [[params.plugins.js]]
+[[params.plugins.js]]
   URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
+[[params.plugins.js]]
   URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
+[[params.plugins.js]]
   URL = "plugins/slick/slick.min.js"
 
-  
-############################## navigation ###############################
-[menu]
-    
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 2
-  
-  [[menu.main]]
-  name = "Service"
-  URL = "service"
-  weight = 3
-  
-  [[menu.main]]
-  name = "Team"
-  URL = "team"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
-    
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 6
-  
-  ###################### footer menu
-  [[menu.footer]]
-  name = "About"
-  URL = "about"
-  weight = 2
-  
-  [[menu.footer]]
-  name = "Service"
-  URL = "service"
-  weight = 3
-  
-  [[menu.footer]]
-  name = "Team"
-  URL = "team"
-  weight = 4
-  
-  [[menu.footer]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
-    
-  [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 6
+######################## Social Links ########################
 
+[[params.social]]
+  name = "Github"
+  link = "https://www.github.com/CodeTrueFalse"
 
-#################### default parameters ################################
-[params]
-logo = "images/logo_truefalse.png"
-home = "Home"
+[[params.social]]
+  name = "Linkedin"
+  link = "https://www.linkedin.com/company/truefalsefr"
 
-# Meta data
+######################## Meta Data ########################
+
 description = "TrueFalse - Innovate your projects with cutting-edge technology solutions. Specialized in AI, data scraping, and cybersecurity."
 author = "TrueFalse"
 keywords = "TrueFalse, True False, technology, French Tech, AI, scraping, web development, startup, cybersecurity"
 robots = "index, follow"
 canonicalURL = "https://www.truefalse.fr/"
 
-# Google Analitycs
-googleAnalitycsID = "G-GZMDLKS1TV"
+googleAnalyticsID = "G-GZMDLKS1TV"
 
+######################## Multilanguage Call to Action ########################
 
-  # Preloader
-  [params.preloader]
-  enable = true
-  preloader = "" # use .png , .svg or .gif format
-
-  # Navigation get start button
-  [params.navButton]
-  enable = true
-  label = "Get A Quote"
-  link = "contact"
-
-
-############################### social links ############################
-[[params.social]]
-name = "Github"
-link = "https://www.github.com/CodeTrueFalse"
-
-[[params.social]]
-name = "Linkedin"
-link = "https://www.linkedin.com/company/truefalsefr"
-
-
-########################### footer call to action #####################
 [params.cta]
-enable = true
-title  = "Want to build your projects with us? Let's talk about it!"
-#button
-label = "Contact Us"
-link = "contact"
+  [params.cta.en]
+    enable = true
+    title  = "Want to build your projects with us? Let's talk about it!"
+    label = "Contact Us"
+    link = "/en/contact/"
+  [params.cta.fr]
+    enable = true
+    title  = "Envie de construire vos projets avec nous ? Parlons-en !"
+    label = "Contactez-nous"
+    link = "/fr/contact/"
 
+######################## Multilanguage Footer ########################
 
-############################ footer ##############################
 [params.footer]
-bgImage = "images/backgrounds/footer-bg.png"
-content = "Designed and Developed by [Hugo Sibony](https://www.hugosibony.com)"
+    bgImage = "images/backgrounds/footer-bg.png"
+  [params.footer.fr]
+    content = "Conçu et développé par [Hugo Sibony](https://www.hugosibony.com)"
 
-# card we accept
 [[params.footer.card]]
-image = "images/paypal.png"
+  image = "images/paypal.png"
 [[params.footer.card]]
-image = "images/visa.png"
+  image = "images/visa.png"

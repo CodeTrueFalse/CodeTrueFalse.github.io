@@ -20,18 +20,20 @@
     <div class="row mb-100">
       <div class="col-lg-4 pr-lg-5 col-md-6 mb-5 mb-lg-0">
         <a class="mb-4 d-block" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
-        <p>{{ .Site.Params.footer.content | markdownify }}</p>
+        <p>{{ i18n "footer.author"  | markdownify }}</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mb-5 mb-lg-0">
-        <h6 class="mb-4">Quick Links</h6>
+        <h6 class="mb-4">{{ i18n "footer.quickLinks"}}</h6>
         <ul class="list-unstyled footer-menu">
-          {{ range .Site.Menus.footer }}
-          <li><a href="{{.URL | absURL}}" target="_blank">{{.Name}}</a></li>
+          {{ $currentPage := . }}
+          {{ $menu := .Site.Menus.main}}
+          {{range $index, $element := $menu}}
+          <li><a class="nav-link scroll-to" href="{{ .URL | relLangURL }}"> {{ i18n .Identifier | default .Name}} </a></li>
           {{ end }}
         </ul>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mb-5 mb-lg-0">
-        <h6 class="mb-4">Social Contacts</h6>
+        <h6 class="mb-4">{{ i18n "footer.socialContacts"}}</h6>
         <ul class="list-unstyled footer-menu">
           {{ range .Site.Params.social }}
           <li><a href="{{.link | safeURL}}" target="_blank">{{.name}}</a></li>
@@ -39,9 +41,9 @@
         </ul>
       </div>
       <div class="col-lg-4">
-        <h6 class="mb-4">Let's Subscribe Your Email</h6>
+        <h6 class="mb-4">{{ i18n "footer.subscribeEmail"}}</h6>
         <div class="input-group mb-5">
-          <input type="text" class="subscription-form flex-fill" placeholder="Your Email Address">
+          <input type="text" class="subscription-form flex-fill" placeholder={{ i18n "footer.email"}}>
           <div class="input-group-append">
             <button class="input-group-text btn btn-primary rounded-0"><img class="img-fluid" src="{{`images/arrow.svg` | absURL }}" alt=""></button>
           </div>

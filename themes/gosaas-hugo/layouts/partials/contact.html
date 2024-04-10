@@ -1,16 +1,17 @@
-{{ with .Site.Data.contact.contact }}
-<section class="section pb-0 position-relative">
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.contact.contact }}
+<section class="section position-relative">
   <img src="{{ .bgImage | absURL }}" alt="" class="bg-image-top">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 mx-auto text-center">
         <h2 class="title">{{ .title | markdownify }}</h2>
         <form action="{{ .formAction | safeURL }}" method="POST">
-          <input type="text" name="name" id="name" class="form-control mb-4" placeholder="Your full name">
-          <input type="email" name="email" id="email" class="form-control mb-4" placeholder="Your email address">
+          <input type="text" name="name" id="name" class="form-control mb-4" placeholder={{ i18n "contactForm.name"}}>
+          <input type="email" name="email" id="email" class="form-control mb-4" placeholder={{ i18n "contactForm.email"}}>
           <textarea name="message" id="message" class="form-control mb-4"
-            placeholder="Type your message here"></textarea>
-          <button type="submit" class="btn btn-primary btn-block">Submit message</button>
+            placeholder={{ i18n "contactForm.message"}}></textarea>
+          <button type="submit" class="btn btn-primary btn-block">{{ i18n "contactForm.submitButton"}}</button>
         </form>
       </div>
     </div>

@@ -1,4 +1,4 @@
-################################## About ##############################
+# English content
 about:
   enable: true
   aboutItem:
@@ -10,7 +10,3 @@ about:
       image: "images/illustrations/about-img-2.png"
       content: "At TrueFalse, we're committed to shaping the future through our cutting-edge projects. Among our endeavors is the development of an AI Pentesting Tool, harnessing advanced artificial intelligence techniques to identify and mitigate software vulnerabilities. Additionally, we're crafting a cloud-based Scraping Tool, revolutionizing data extraction to provide valuable insights for businesses and researchers alike."
 
-################################ Service ##################################
-service:
-  enable: true
-  # service data comes from 'data/service.yml'

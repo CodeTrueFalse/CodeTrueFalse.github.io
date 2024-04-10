@@ -1,0 +1,56 @@
+# Menu Items
+[home]
+other = "Home"
+
+[about]
+other = "About"
+
+[service]
+other = "Service"
+
+[pricing]
+other = "Pricing"
+
+
+[team]
+other = "Team"
+
+[contact]
+other = "Contact"
+
+
+# Home
+
+[ReturnHome]
+other = "Return to homepage"
+
+
+#### 404 page
+
+[404_Message]
+other = "We're sorry, but the page you are looking for cannot be found."
+
+[404_PageNotFound]
+other = "404 - Page Not Found"
+
+### Contact Forms
+[contactForm]
+name = "Your full name"
+email = "Your email address"
+message = "Type your message here"
+submitButton = "Submit message"
+
+
+### Footer
+[footer]
+quickLinks = "Quick Links"
+socialContacts = "Social Contacts"
+subscribeEmail = "Let's Subscribe Your Email"
+email = "Your Email Address"
+author = "Designed and Developed by [Hugo Sibony](https://www.hugosibony.com)"
+
+[pricingTable]
+title = "Our Pricing"
+plansTable = "Plan Table"
+featuresTable = "Features Table"
+feature = "Feature"
