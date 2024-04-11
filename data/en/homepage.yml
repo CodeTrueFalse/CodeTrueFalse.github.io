@@ -50,7 +50,7 @@ cta:
   button:
     enable: true
     label: "Contact Us"
-    link: "contact"
+    link: "/en/contact/"
 
 ################################## About App ##############################
 aboutApp:
