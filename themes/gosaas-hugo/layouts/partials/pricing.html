@@ -7,9 +7,14 @@
       <div class="col-lg-12 text-center">
         <h3 class="title">{{ i18n "pricingTable.featuresTable"}}</h3>
       </div>
+      {{ $pricingCount := len .pricingTable }}
+      {{ $cardCount := 0 }}
       {{ range .pricingTable }}
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card text-center pricing-table">
+      {{ if eq 0 (mod $cardCount 3) }}
+      <div class="row"> <!-- Start new row -->
+      {{ end }}
+      <div class="col-lg-4 col-sm-6 mb-lg-0"> <!-- Adjusted column width to col-lg-4 for 3 cards per row -->
+        <div class="card text-center pricing-table" style="font-family: Arial, sans-serif;"> <!-- Changed font family -->
           <img src="{{`images/backgrounds/pricing-table-bg.png` | absURL }}" class="img-fluid pricing-table-bg"
             alt="" />
           <div class="card-body">
@@ -19,7 +24,7 @@
             </p>
             <p class="text-muted mb-4">{{ .fee }}</p>
             <div class="text-left">
-              <p class="mb-4" style="font-size: 16px; line-height: 1.6; color: #333;">{{ .content | markdownify }}</p>
+              <p class="mb-4" style="font-size: 18px; line-height: 1.8; color: #000;">{{ .content | markdownify }}</p> <!-- Changed text color to darker -->
             </div>
             {{ with .button }}
             <a href="{{ .link | safeURL }}" class="btn btn-outline-tertiary">{{ .label }}</a>
@@ -27,6 +32,10 @@
           </div>
         </div>
       </div>
+      {{ $cardCount = add $cardCount 1 }}
+      {{ if or (eq $cardCount $pricingCount) (eq 0 (mod $cardCount 3)) }}
+      </div> <!-- End row if it's the last card or if 3 cards have been displayed -->
+      {{ end }}
       {{ end }}
     </div>
   </div>
@@ -55,7 +64,7 @@
             <tbody>
               {{ range $features }}
               <tr>
-                <td class="font-weight-bold bg-light">{{ .name }}</td>
+                <td class="font-weight-bold bg-light" style="font-size: 18px;">{{ .name }}</td>
                 {{ $currentFeature := .key }}
                 {{ range $pricingTable }}
                 <td class="text-center">
