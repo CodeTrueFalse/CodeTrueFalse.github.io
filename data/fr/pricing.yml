@@ -1,7 +1,6 @@
-################################## Pricing ################################
 pricing:
   enable: true
-  title: ""
+  title: "Tarification"
   features:
     - name: "Outils de Scraping"
       key: "basicScraping"
@@ -13,38 +12,87 @@ pricing:
       key: "unlimitedSites"
     - name: "Fonctionnalités Avancées"
       key: "advancedFeatures"
+    - name: "Centralisation des Recherches"
+      key: "centralizedSearch"
+    - name: "Suivi Continu"
+      key: "continuousTracking"
+    - name: "Filtres Personnalisables"
+      key: "customFilters"
+    - name: "Mises à Jour en Temps Réel"
+      key: "realTimeUpdates"
 
   pricingTable:
-    # Boucle de la table de tarification
-    - name: "Plan de Démarrage"
-      price: "€80"
-      type: "/mois"
-      fee: "Frais uniques : €300"
-      content: "* Jusqu'à **5 sites**\n
-                * Jusqu'à **8 Trackers**\n
-                * 1 Compte"
-      basicScraping: true
-      customizedSupport: false
+    - name: "Abonnement Standard"
+      fee: "Licence : 300€"
+      price: "Sur Demande"
+      type: ""
+      content: "* Traking sur **8 sites web** dans un domaine d'expertise\n
+                * **Un seul** utilisateur disponible sur la licence\n
+                * Utilisateur additionnel : +€15/mois par utilisateur supplémentaire\n
+                * Sites supplémentaires : +€5/mois pour chaque site au-delà des 8 inclus\n
+                * Support Personnalisé\n
+                * Centralisation des Recherches\n
+                * Suivi Continu\n
+                * Filtres Personnalisables\n
+                * Mises à Jour en Temps Réel"
       unlimitedTrackers: false
       unlimitedSites: false
-      advancedFeatures: false
+      customizedSupport: true
+      centralizedSearch: true
+      continuousTracking: true
+      customFilters: true
+      realTimeUpdates: true
       button:
         label: "Commencer"
         link: "#"
 
-    # Boucle de la table de tarification
-    - name: "Plan Entreprise"
-      price: "Custom"
-      fee: ""
-      content: "* Sites **illimités**\n
-                * Trackers **illimités**\n
-                * Comptes Multiples\n
-                * Moteur de Recherche **| Bientôt Disponible**"
-      basicScraping: true
+    - name: "True False Pro"
+      fee: "Licence : 300€"
+      price: "Sur Demande"
+      type: ""
+      content: "* Traking sur **15 sites web** dans un domaine d'expertise\n
+                * **Trois utilisateurs** disponibles sur la licence\n
+                * Utilisateur additionnel : +€15/mois par utilisateur supplémentaire\n
+                * Sites supplémentaires : +€5/mois pour chaque site au-delà des 15 inclus\n
+                * Support Personnalisé\n
+                * Centralisation des Recherches\n
+                * Suivi Continu\n
+                * Filtres Personnalisables\n
+                * Mises à Jour en Temps Réel"
+      unlimitedTrackers: false
+      unlimitedSites: false
       customizedSupport: true
+      centralizedSearch: true
+      continuousTracking: true
+      advancedFeatures: true
+      customFilters: true
+      realTimeUpdates: true
+      button:
+        label: "Commencer"
+        link: "#"
+
+    - name: "True False Pro+"
+      price: "Sur Demande"
+      fee: "Licence : 300€"
+      type: ""
+      content: "* Traking sur **30 sites web** par domaine d'expertise\n
+                * Jusqu'à **3 domaines d’expertise**\n
+                * Jusqu’à **10 utilisateurs disponibles** sur la licence\n
+                * Utilisateur additionnel : +€15/mois par utilisateur supplémentaire\n
+                * Sites supplémentaires : +€5/mois pour chaque site au-delà des 30 inclus\n
+                * Support Personnalisé\n
+                * Centralisation des Recherches\n
+                * Suivi Continu\n
+                * Filtres Personnalisables\n
+                * Mises à Jour en Temps Réel"
       unlimitedTrackers: true
       unlimitedSites: true
+      customizedSupport: true
+      centralizedSearch: true
+      continuousTracking: true
+      customFilters: true
       advancedFeatures: true
+      realTimeUpdates: true
       button:
-        label: "Nous Contacter"
+        label: "Commencer"
         link: "#"

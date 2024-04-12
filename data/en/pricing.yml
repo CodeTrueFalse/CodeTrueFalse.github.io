@@ -1,7 +1,6 @@
-################################## Pricing ################################
 pricing:
   enable: true
-  title: ""
+  title: "Pricing"
   features:
     - name: "Scraping Tools"
       key: "basicScraping"
@@ -13,38 +12,89 @@ pricing:
       key: "unlimitedSites"
     - name: "Advanced Features"
       key: "advancedFeatures"
+    - name: "Centralized Search"
+      key: "centralizedSearch"
+    - name: "Continuous Tracking"
+      key: "continuousTracking"
+    - name: "Custom Filters"
+      key: "customFilters"
+    - name: "Real-Time Updates"
+      key: "realTimeUpdates"
+
   pricingTable:
-    # pricing table loop
-    - name: "Starter Plan"
-      price: "€80"
-      type: "/month"
-      fee: "One-time fee: €300"
-      content: "* Up to **5 sites**\n
-                * Up to **8 Trackers**\n
-                * 1 Account"
-      basicScraping: true
-      customizedSupport: false
+    - name: "Standard Subscription"
+      fee: "License: €300"
+      price: "On Request"
+      type: ""
+      content: "* Tracking on **8 websites** in one domain of expertise\n
+                * **Single** user available on the license\n
+                * Additional user: +€15/month per additional user\n
+                * Additional sites: +€5/month for each site beyond the included 8\n
+                * Customized Support\n
+                * Centralized Search\n
+                * Continuous Tracking\n
+                * Custom Filters\n
+                * Real-Time Updates"
       unlimitedTrackers: false
       unlimitedSites: false
-      advancedFeatures: false
+      customizedSupport: true
+      centralizedSearch: true
+      continuousTracking: true
+      customFilters: true
+      realTimeUpdates: true
       button:
         label: "Get Started"
         link: "#"
 
-    # pricing table loop
-    - name: "Enterprise Plan"
-      price: "Custom"
-      fee: ""
-      content: "* **Unlimited** sites\n
-                * **Unlimited** Trackers\n
-                * Multiple Accounts\n
-                * **Search Engine** | Coming Soon"
-      basicScraping: true
+    - name: "True False Pro"
+      fee: "License: €300"
+      price: "On Request"
+      type: ""
+      content: "* Tracking on **15 websites** in one domain of expertise\n
+                * **Three users** available on the license\n
+                * Additional user: +€15/month per additional user\n
+                * Additional sites: +€5/month for each site beyond the included 15\n
+                * Customized Support\n
+                * Centralized Search\n
+                * Continuous Tracking\n
+                * Advanced Features\n
+                * Custom Filters\n
+                * Real-Time Updates"
+      unlimitedTrackers: false
+      unlimitedSites: false
       customizedSupport: true
-      unlimitedTrackers: true
-      unlimitedSites: true
+      centralizedSearch: true
+      continuousTracking: true
       advancedFeatures: true
+      customFilters: true
+      realTimeUpdates: true
       button:
-        label: "Contact Us"
+        label: "Get Started"
         link: "#"
 
+    - name: "True False Pro+"
+      price: "On Request"
+      fee: "License: €300"
+      type: ""
+      content: "* Tracking on **30 websites** per domain of expertise\n
+                * Up to **3 domains of expertise**\n
+                * Up to **10 users** available on the license\n
+                * Additional user: +€15/month per additional user\n
+                * Additional sites: +€5/month for each site beyond the included 30\n
+                * Customized Support\n
+                * Centralized Search\n
+                * Continuous Tracking\n
+                * Custom Filters\n
+                * Advanced Features\n
+                * Real-Time Updates"
+      unlimitedTrackers: true
+      unlimitedSites: true
+      customizedSupport: true
+      centralizedSearch: true
+      continuousTracking: true
+      customFilters: true
+      advancedFeatures: true
+      realTimeUpdates: true
+      button:
+        label: "Get Started"
+        link: "#"
