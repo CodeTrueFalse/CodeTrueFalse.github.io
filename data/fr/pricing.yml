@@ -36,6 +36,7 @@ pricing:
                 * Filtres Personnalisables\n
                 * Mises à Jour en Temps Réel"
       unlimitedTrackers: false
+      basicScraping: true
       unlimitedSites: false
       customizedSupport: true
       centralizedSearch: true
@@ -61,6 +62,7 @@ pricing:
                 * Mises à Jour en Temps Réel"
       unlimitedTrackers: false
       unlimitedSites: false
+      basicScraping: true
       customizedSupport: true
       centralizedSearch: true
       continuousTracking: true
@@ -88,6 +90,7 @@ pricing:
       unlimitedTrackers: true
       unlimitedSites: true
       customizedSupport: true
+      basicScraping: true
       centralizedSearch: true
       continuousTracking: true
       customFilters: true
