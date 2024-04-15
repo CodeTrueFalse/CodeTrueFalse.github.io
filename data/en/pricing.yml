@@ -10,8 +10,6 @@ pricing:
       key: "unlimitedTrackers"
     - name: "Unlimited Sites"
       key: "unlimitedSites"
-    - name: "Advanced Features"
-      key: "advancedFeatures"
     - name: "Centralized Search"
       key: "centralizedSearch"
     - name: "Continuous Tracking"
@@ -39,7 +37,7 @@ pricing:
       unlimitedTrackers: false
       unlimitedSites: false
       customizedSupport: true
-      centralizedSearch: true
+      centralizedSearch: false
       continuousTracking: true
       customFilters: true
       realTimeUpdates: true
@@ -67,7 +65,6 @@ pricing:
       customizedSupport: true
       centralizedSearch: true
       continuousTracking: true
-      advancedFeatures: true
       customFilters: true
       realTimeUpdates: true
       button:
@@ -96,7 +93,6 @@ pricing:
       centralizedSearch: true
       continuousTracking: true
       customFilters: true
-      advancedFeatures: true
       realTimeUpdates: true
       button:
         label: "Get Started"
