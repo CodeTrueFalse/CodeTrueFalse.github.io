@@ -54,3 +54,7 @@ title = "Our Pricing"
 plansTable = "Plan Table"
 featuresTable = "Features Table"
 feature = "Feature"
+
+[NavButton]
+label = "Request Demo"
+link = "/contact/"

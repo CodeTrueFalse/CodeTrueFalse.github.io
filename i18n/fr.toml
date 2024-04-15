@@ -50,3 +50,7 @@ author = "Conçu et développé par [Hugo Sibony](https://www.hugosibony.com)"
 plansTable = "Tableau des Plans"
 featuresTable = "Tableau des Fonctionnalitées"
 feature = "Fonctionnalité"
+
+[NavButton]
+label = "Demander une Démo"
+link = "/fr/contact/"
