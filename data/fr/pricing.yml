@@ -26,13 +26,8 @@ pricing:
       type: ""
       content: "* Traking sur **8 sites web** dans un domaine d'expertise\n
         * **Un seul** utilisateur disponible sur la licence\n
-        * Utilisateur additionnel : +€15/mois par utilisateur supplémentaire\n
-        * Sites supplémentaires : +€5/mois pour chaque site au-delà des 8 inclus\n
-        * Support Personnalisé\n
-        * Centralisation des Recherches\n
-        * Suivi Continu\n
-        * Filtres Personnalisables\n
-        * Mises à Jour en Temps Réel"
+        * Utilisateur additionnel : Frais additionnels par utilisateur supplémentaire\n
+        * Sites supplémentaires : Frais additionels pour chaque site au-delà des 8 inclus"
       unlimitedTrackers: false
       basicScraping: true
       unlimitedSites: false
@@ -43,7 +38,7 @@ pricing:
       realTimeUpdates: true
       button:
         label: "Commencer"
-        link: "#"
+        link: "/fr/contact/"
 
     - name: "True False Pro"
       fee: "Licence : 300€"
@@ -51,13 +46,8 @@ pricing:
       type: ""
       content: "* Traking sur **15 sites web** dans un domaine d'expertise\n
         * **Trois utilisateurs** disponibles sur la licence\n
-        * Utilisateur additionnel : +€15/mois par utilisateur supplémentaire\n
-        * Sites supplémentaires : +€5/mois pour chaque site au-delà des 15 inclus\n
-        * Support Personnalisé\n
-        * Centralisation des Recherches\n
-        * Suivi Continu\n
-        * Filtres Personnalisables\n
-        * Mises à Jour en Temps Réel"
+        * **Utilisateur additionnel** : Frais additionnels par utilisateur supplémentaire\n
+        * **Sites supplémentaires** : Frais additionnels pour chaque site au-delà des 15 inclus"
       unlimitedTrackers: false
       unlimitedSites: false
       basicScraping: true
@@ -68,7 +58,7 @@ pricing:
       realTimeUpdates: true
       button:
         label: "Commencer"
-        link: "#"
+        link: "/fr/contact/"
 
     - name: "True False Pro+"
       price: "Sur Demande"
@@ -77,13 +67,8 @@ pricing:
       content: "* Traking sur **30 sites web** par domaine d'expertise\n
         * Jusqu'à **3 domaines d’expertise**\n
         * Jusqu’à **10 utilisateurs disponibles** sur la licence\n
-        * Utilisateur additionnel : +€15/mois par utilisateur supplémentaire\n
-        * Sites supplémentaires : +€5/mois pour chaque site au-delà des 30 inclus\n
-        * Support Personnalisé\n
-        * Centralisation des Recherches\n
-        * Suivi Continu\n
-        * Filtres Personnalisables\n
-        * Mises à Jour en Temps Réel"
+        * **Utilisateur additionnel** : Frais additionnels par utilisateur supplémentaire\n
+        * **Sites supplémentaires** : Frais additionnels pour chaque site au-delà des 30 inclus"
       unlimitedTrackers: true
       unlimitedSites: true
       customizedSupport: true
@@ -94,4 +79,4 @@ pricing:
       realTimeUpdates: true
       button:
         label: "Commencer"
-        link: "#"
+        link: "/fr/contact/"

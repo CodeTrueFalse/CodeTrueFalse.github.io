@@ -26,13 +26,8 @@ pricing:
       type: ""
       content: "* Tracking on **8 websites** in one domain of expertise\n
                 * **Single** user available on the license\n
-                * Additional user: +€15/month per additional user\n
-                * Additional sites: +€5/month for each site beyond the included 8\n
-                * Customized Support\n
-                * Centralized Search\n
-                * Continuous Tracking\n
-                * Custom Filters\n
-                * Real-Time Updates"
+                * **Additional user**: Additional fees per additional user\n
+                * **Additional sites**: Additional fees for each site beyond the included 8"
       basicScraping: true
       unlimitedTrackers: false
       unlimitedSites: false
@@ -43,22 +38,16 @@ pricing:
       realTimeUpdates: true
       button:
         label: "Get Started"
-        link: "#"
+        link: "/contact"
 
     - name: "True False Pro"
       fee: "License: €300"
       price: "On Request"
       type: ""
       content: "* Tracking on **15 websites** in one domain of expertise\n
-                * **Three users** available on the license\n
-                * Additional user: +€15/month per additional user\n
-                * Additional sites: +€5/month for each site beyond the included 15\n
-                * Customized Support\n
-                * Centralized Search\n
-                * Continuous Tracking\n
-                * Advanced Features\n
-                * Custom Filters\n
-                * Real-Time Updates"
+                * **3 users** available on the license\n
+                * **Additional user**: Additional fees per additional user\n
+                * **Additional sites**: Additional fees for each site beyond the included 15"
       unlimitedTrackers: false
       basicScraping: true
       unlimitedSites: false
@@ -69,7 +58,7 @@ pricing:
       realTimeUpdates: true
       button:
         label: "Get Started"
-        link: "#"
+        link: "/contact"
 
     - name: "True False Pro+"
       price: "On Request"
@@ -78,14 +67,8 @@ pricing:
       content: "* Tracking on **30 websites** per domain of expertise\n
                 * Up to **3 domains of expertise**\n
                 * Up to **10 users** available on the license\n
-                * Additional user: +€15/month per additional user\n
-                * Additional sites: +€5/month for each site beyond the included 30\n
-                * Customized Support\n
-                * Centralized Search\n
-                * Continuous Tracking\n
-                * Custom Filters\n
-                * Advanced Features\n
-                * Real-Time Updates"
+                * **Additional user**: Additional fees per additional user\n
+                * **Additional sites**: Additional fees for each site beyond the included 30"
       unlimitedTrackers: true
       basicScraping: true
       unlimitedSites: true
@@ -96,4 +79,4 @@ pricing:
       realTimeUpdates: true
       button:
         label: "Get Started"
-        link: "#"
+        link: "/contact"
