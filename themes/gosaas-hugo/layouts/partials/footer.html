@@ -1,15 +1,30 @@
-<!-- cta -->
-{{ if .Site.Params.cta.enable }}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="title">{{ .Site.Params.cta.title | markdownify }}</h2>
-        <a href="{{ .Site.Params.cta.link | absURL }}" class="btn btn-primary">{{ .Site.Params.cta.label }}</a>
+<!-- Language-specific CTA -->
+{{ if eq .Lang "en" }}
+  {{ if .Site.Params.cta.en.enable }}
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="title">{{ .Site.Params.cta.en.title | markdownify }}</h2>
+          <a href="{{ .Site.Params.cta.en.link | relLangURL }}" class="btn btn-primary">{{ .Site.Params.cta.en.label }}</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  {{ end }}
+{{ else if eq .Lang "fr" }}
+  {{ if .Site.Params.cta.fr.enable }}
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="title">{{ .Site.Params.cta.fr.title | markdownify }}</h2>
+          <a href="{{ .Site.Params.cta.fr.link | relLangURL }}" class="btn btn-primary">{{ .Site.Params.cta.fr.label }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
 {{ end }}
 <!-- cta -->
 

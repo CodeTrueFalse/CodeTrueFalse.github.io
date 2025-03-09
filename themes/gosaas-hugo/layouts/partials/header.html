@@ -43,9 +43,18 @@
             </div>
           </li>
         </ul>
-        {{ if .Site.Params.navButton.enable }}
-        <a href="{{ i18n "NavButton.link" | absURL }}" class="btn btn-primary btn-sm ml-lg-4">{{
-          i18n "NavButton.label" }}</a>
+        {{ if eq .Lang "en" }}
+          {{ if .Site.Params.en.navButton.enable }}
+          <a href="{{ .Site.Params.en.navButton.link | relLangURL }}" class="btn btn-primary btn-sm ml-lg-4">
+            {{ .Site.Params.en.navButton.label }}
+          </a>
+          {{ end }}
+        {{ else if eq .Lang "fr" }}
+          {{ if .Site.Params.fr.navButton.enable }}
+          <a href="{{ .Site.Params.fr.navButton.link | relLangURL }}" class="btn btn-primary btn-sm ml-lg-4">
+            {{ .Site.Params.fr.navButton.label }}
+          </a>
+          {{ end }}
         {{ end }}
       </div>
     </nav>

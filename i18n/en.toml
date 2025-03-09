@@ -57,4 +57,4 @@ feature = "Feature"
 
 [NavButton]
 label = "Request Demo"
-link = "/contact/"
+link = "/en/contact/"
