@@ -18,37 +18,37 @@ hasCJKLanguage = false
     weight = 1
     
     # French Menu
-    [[languages.fr.menu.Main]]
+    [[languages.fr.menu.main]]
     identifier = 'home'
     name = "Accueil"
     url= "/fr/"
     weight = 1
 
-    [[languages.fr.menu.Main]]
+    [[languages.fr.menu.main]]
     identifier = 'about'
     name = "À propos"
     url= "/fr/about/"
     weight = 2
 
-    [[languages.fr.menu.Main]]
+    [[languages.fr.menu.main]]
     identifier = 'team'
     name = "Équipe"
     url= "/fr/team/"
     weight = 3
 
-    [[languages.fr.menu.Main]]
+    [[languages.fr.menu.main]]
     identifier = 'service'
     name = "Services"
     url= "/fr/service/"
     weight = 4
 
-    [[languages.fr.menu.Main]]
+    [[languages.fr.menu.main]]
     identifier = 'pricing'
     name = "Tarifs"
     url= "/fr/pricing/"
     weight = 5
 
-    [[languages.fr.menu.Main]]
+    [[languages.fr.menu.main]]
     identifier = 'contact'
     name = "Contact"
     url= "/fr/contact/"
@@ -60,37 +60,37 @@ hasCJKLanguage = false
     weight = 2
     
     # English Menu
-    [[languages.en.menu.Main]]
+    [[languages.en.menu.main]]
     identifier = 'home'
     name = "Home"
     url= "/en/"
     weight = 1
 
-    [[languages.en.menu.Main]]
+    [[languages.en.menu.main]]
     identifier = 'about'
     name = "About"
     url= "/en/about/"
     weight = 2
 
-    [[languages.en.menu.Main]]
+    [[languages.en.menu.main]]
     identifier = 'team'
     name = "Team"
     url= "/en/team/"
     weight = 3
 
-    [[languages.en.menu.Main]]
+    [[languages.en.menu.main]]
     identifier = 'service'
     name = "Service"
     url= "/en/service/"
     weight = 4
 
-    [[languages.en.menu.Main]]
+    [[languages.en.menu.main]]
     identifier = 'pricing'
     name = "Pricing"
     url= "/en/pricing/"
     weight = 5
 
-    [[languages.en.menu.Main]]
+    [[languages.en.menu.main]]
     identifier = 'contact'
     name = "Contact"
     url= "/en/contact/"
