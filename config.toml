@@ -3,7 +3,7 @@
 baseURL = "https://www.truefalse.fr/"
 theme = "gosaas-hugo"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 
 # Enable i18n
 enableInlineShortcodes = true
@@ -12,54 +12,89 @@ hasCJKLanguage = false
 
 # Configure the multilingual parameters
 [languages]
-  [languages.en]
-    languageName = "English"
-    contentDir = "content/en"
-    
-
   [languages.fr]
     languageName = "Français"
     contentDir = "content/fr"
+    weight = 1
+    
+    # French Menu
+    [[languages.fr.menu.Main]]
+    identifier = 'home'
+    name = "Accueil"
+    url= "/fr/"
+    weight = 1
 
-  
-[Menu]
-  # Main Menu
-  [[menu.Main]]
-  identifier = 'home'
-  name = "Home"
-  url= "/"
-  weight = 1
+    [[languages.fr.menu.Main]]
+    identifier = 'about'
+    name = "À propos"
+    url= "/fr/about/"
+    weight = 2
 
-  [[menu.Main]]
-  identifier = 'about'
-  name = "About"
-  url= "/about/"
-  weight = 2
+    [[languages.fr.menu.Main]]
+    identifier = 'team'
+    name = "Équipe"
+    url= "/fr/team/"
+    weight = 3
 
-  [[menu.Main]]
-  identifier = 'team'
-  name = "Team"
-  url= "/team/"
-  weight = 3
+    [[languages.fr.menu.Main]]
+    identifier = 'service'
+    name = "Services"
+    url= "/fr/service/"
+    weight = 4
 
-  [[menu.Main]]
-  identifier = 'service'
-  name = "Service"
-  url= "/service/"
-  weight = 4
+    [[languages.fr.menu.Main]]
+    identifier = 'pricing'
+    name = "Tarifs"
+    url= "/fr/pricing/"
+    weight = 5
 
+    [[languages.fr.menu.Main]]
+    identifier = 'contact'
+    name = "Contact"
+    url= "/fr/contact/"
+    weight = 6
+    
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
+    
+    # English Menu
+    [[languages.en.menu.Main]]
+    identifier = 'home'
+    name = "Home"
+    url= "/en/"
+    weight = 1
 
-  [[menu.Main]]
-  identifier = 'pricing'
-  name = "Pricing"
-  url= "/pricing/"
-  weight = 5
+    [[languages.en.menu.Main]]
+    identifier = 'about'
+    name = "About"
+    url= "/en/about/"
+    weight = 2
 
-  [[menu.Main]]
-  identifier = 'contact'
-  name = "Contact"
-  url= "/contact/"
-  weight = 6
+    [[languages.en.menu.Main]]
+    identifier = 'team'
+    name = "Team"
+    url= "/en/team/"
+    weight = 3
+
+    [[languages.en.menu.Main]]
+    identifier = 'service'
+    name = "Service"
+    url= "/en/service/"
+    weight = 4
+
+    [[languages.en.menu.Main]]
+    identifier = 'pricing'
+    name = "Pricing"
+    url= "/en/pricing/"
+    weight = 5
+
+    [[languages.en.menu.Main]]
+    identifier = 'contact'
+    name = "Contact"
+    url= "/en/contact/"
+    weight = 6
 
 [params]
   logo = "/images/logo_truefalse.png"
@@ -67,8 +102,12 @@ hasCJKLanguage = false
  # Navigation get start button
  [params.navButton]
    enable = true
-   label = "Request Demo"
-   link = "/contact/"
+   [params.navButton.fr]
+     label = "Demander une démo"
+     link = "/fr/contact/"
+   [params.navButton.en]
+     label = "Request Demo"
+     link = "/en/contact/"
 
 ######################## Plugin Configuration ########################
 

@@ -1,0 +1,57 @@
+<header class="fixed-top navigation">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          {{ $currentPage := . }}
+          {{ $langMenu := print .Language "Main" }}
+          {{ $menu := index .Site.Menus $langMenu }}
+          {{ range $index, $element := $menu}}
+          <li class="nav-item {{ if or ($currentPage.IsMenuCurrent $langMenu .) ($currentPage.HasMenuCurrent $langMenu .) }}
+            active{{ end }}">
+            <a class="nav-link scroll-to" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              {{ .Lang }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="languageDropdown">
+              {{ $siteLanguages := $.Site.Home.AllTranslations }}
+              {{ $pageLang := .Page.Lang }}
+              {{ range .Page.AllTranslations }}
+              {{ $translation := . }}
+              {{ range $siteLanguages }}
+              {{ if eq $translation.Lang .Lang }}
+              {{ $selected := "" }}
+              {{ if eq $pageLang .Lang }}
+              {{ $selected = "selected" }}
+              {{ end }}
+              <a class="dropdown-item {{ $selected }}" href="{{ $translation.RelPermalink }}">
+                {{ .Language.LanguageName }}
+              </a>
+              {{ end }}
+              {{ end }}
+              {{ end }}
+            </div>
+          </li>
+        </ul>
+        {{ if .Site.Params.navButton.enable }}
+          {{ if eq .Lang "fr" }}
+            <a href="{{ .Site.Params.navButton.fr.link | absURL }}" class="btn btn-primary btn-sm ml-lg-4">{{ .Site.Params.navButton.fr.label }}</a>
+          {{ else }}
+            <a href="{{ .Site.Params.navButton.en.link | absURL }}" class="btn btn-primary btn-sm ml-lg-4">{{ .Site.Params.navButton.en.label }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header> 
