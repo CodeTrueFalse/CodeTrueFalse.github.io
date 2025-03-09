@@ -4,13 +4,11 @@ baseURL = "https://www.truefalse.fr/"
 theme = "gosaas-hugo"
 
 defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
 
 # Enable i18n
 enableInlineShortcodes = true
 hasCJKLanguage = false
-
-# Always include language code in URLs
-defaultContentLanguageInSubdir = true
 
 # Configure the multilingual parameters
 [languages]
@@ -18,100 +16,96 @@ defaultContentLanguageInSubdir = true
     languageName = "English"
     contentDir = "content/en"
     weight = 2
+    languageCode = "en-us"
     
-    # English Menu
-    [[languages.en.menu.main]]
-    identifier = 'home'
-    name = "Home"
-    url= "/"
-    weight = 1
-
-    [[languages.en.menu.main]]
-    identifier = 'about'
-    name = "About"
-    url= "/about/"
-    weight = 2
-
-    [[languages.en.menu.main]]
-    identifier = 'team'
-    name = "Team"
-    url= "/team/"
-    weight = 3
-
-    [[languages.en.menu.main]]
-    identifier = 'service'
-    name = "Service"
-    url= "/service/"
-    weight = 4
-
-    [[languages.en.menu.main]]
-    identifier = 'pricing'
-    name = "Pricing"
-    url= "/pricing/"
-    weight = 5
-
-    [[languages.en.menu.main]]
-    identifier = 'contact'
-    name = "Contact"
-    url= "/contact/"
-    weight = 6
-
   [languages.fr]
     languageName = "Français"
     contentDir = "content/fr"
     weight = 1
-    
-    # French Menu
-    [[languages.fr.menu.main]]
-    identifier = 'home'
-    name = "Accueil"
-    url= "/"
-    weight = 1
+    languageCode = "fr-fr"
 
-    [[languages.fr.menu.main]]
-    identifier = 'about'
-    name = "À propos"
-    url= "/about/"
-    weight = 2
+# English Menu
+[[menu.languages_en_main]]
+identifier = 'home'
+name = "Home"
+url= "/"
+weight = 1
 
-    [[languages.fr.menu.main]]
-    identifier = 'team'
-    name = "Équipe"
-    url= "/team/"
-    weight = 3
+[[menu.languages_en_main]]
+identifier = 'about'
+name = "About"
+url= "/about/"
+weight = 2
 
-    [[languages.fr.menu.main]]
-    identifier = 'service'
-    name = "Services"
-    url= "/service/"
-    weight = 4
+[[menu.languages_en_main]]
+identifier = 'team'
+name = "Team"
+url= "/team/"
+weight = 3
 
-    [[languages.fr.menu.main]]
-    identifier = 'pricing'
-    name = "Tarifs"
-    url= "/pricing/"
-    weight = 5
+[[menu.languages_en_main]]
+identifier = 'service'
+name = "Service"
+url= "/service/"
+weight = 4
 
-    [[languages.fr.menu.main]]
-    identifier = 'contact'
-    name = "Contact"
-    url= "/contact/"
-    weight = 6
+[[menu.languages_en_main]]
+identifier = 'pricing'
+name = "Pricing"
+url= "/pricing/"
+weight = 5
+
+[[menu.languages_en_main]]
+identifier = 'contact'
+name = "Contact"
+url= "/contact/"
+weight = 6
+
+# French Menu
+[[menu.languages_fr_main]]
+identifier = 'home'
+name = "Accueil"
+url= "/"
+weight = 1
+
+[[menu.languages_fr_main]]
+identifier = 'about'
+name = "À propos"
+url= "/about/"
+weight = 2
+
+[[menu.languages_fr_main]]
+identifier = 'team'
+name = "Équipe"
+url= "/team/"
+weight = 3
+
+[[menu.languages_fr_main]]
+identifier = 'service'
+name = "Services"
+url= "/service/"
+weight = 4
+
+[[menu.languages_fr_main]]
+identifier = 'pricing'
+name = "Tarifs"
+url= "/pricing/"
+weight = 5
+
+[[menu.languages_fr_main]]
+identifier = 'contact'
+name = "Contact"
+url= "/contact/"
+weight = 6
 
 [params]
   logo = "/images/logo_truefalse.png"
 
- # Navigation get start button - English
- [params.en.navButton]
+ # Navigation get start button
+ [params.navButton]
    enable = true
    label = "Request Demo"
-   link = "/en/contact/"
-
- # Navigation get start button - French
- [params.fr.navButton]
-   enable = true
-   label = "Demander une démo"
-   link = "/fr/contact/"
+   link = "/contact/"
 
 ######################## Plugin Configuration ########################
 
@@ -158,12 +152,12 @@ googleAnalyticsID = "G-GZMDLKS1TV"
     enable = true
     title  = "Want to build your projects with us? Let's talk about it!"
     label = "Contact Us"
-    link = "/en/contact/"
+    link = "/contact/"
   [params.cta.fr]
     enable = true
     title  = "Envie de construire vos projets avec nous ? Parlons-en !"
     label = "Contactez-nous"
-    link = "/fr/contact/"
+    link = "/contact/"
 
 ######################## Multilanguage Footer ########################
 
