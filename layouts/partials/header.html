@@ -40,9 +40,15 @@
           </li>
         </ul>
         {{ if .Site.Params.navButton.enable }}
-        <a href="{{ .Site.Params.navButton.link | relLangURL }}" class="btn btn-primary btn-sm ml-lg-4">
-          {{ .Site.Params.navButton.label }}
-        </a>
+          {{ if eq .Site.Language.Lang "en" }}
+            <a href="{{ .Site.Params.navButton.en.link | relLangURL }}" class="btn btn-primary btn-sm ml-lg-4">
+              {{ .Site.Params.navButton.en.label }}
+            </a>
+          {{ else if eq .Site.Language.Lang "fr" }}
+            <a href="{{ .Site.Params.navButton.fr.link | relLangURL }}" class="btn btn-primary btn-sm ml-lg-4">
+              {{ .Site.Params.navButton.fr.label }}
+            </a>
+          {{ end }}
         {{ end }}
       </div>
     </nav>

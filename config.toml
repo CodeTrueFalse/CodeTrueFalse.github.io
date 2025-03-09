@@ -104,8 +104,12 @@ weight = 6
  # Navigation get start button
  [params.navButton]
    enable = true
-   label = "Request Demo"
-   link = "/contact/"
+   [params.navButton.en]
+     label = "Request Demo"
+     link = "/contact/"
+   [params.navButton.fr]
+     label = "Demander une démo"
+     link = "/contact/"
 
 ######################## Plugin Configuration ########################
 
