@@ -6,8 +6,8 @@ team:
   teamMember:
     # team member loop
     - name: "Hugo Sibony"
-      image: "images/team/hugo_sibony.png"
-      designation: "Co-Founder & CEO/CTO"
+      image: "images/team/hugo_sibony.jpg"
+      designation: "Co-Founder & President"
       email: "hugo.sibony@truefalse.fr"
       socialLinks:
         - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
@@ -22,7 +22,7 @@ team:
     # team member loop
     - name: "Maxence Leclercq"
       image: "images/team/maxence_leclercq.png"
-      designation: "Co-Founder & COO"
+      designation: "Co-Founder & CEO"
       email: "maxence.leclercq@truefalse.fr"
       socialLinks:
         - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
@@ -34,8 +34,16 @@ team:
     # team member loop
     - name: "Ilyes Benahmed"
       image: "images/team/ilyes_benahmed.png"
-      designation: "CFO"
+      designation: "Chief Commercial Officer"
       email: "ilyes.benahmed@truefalse.fr"
       socialLinks:
         - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
           link: "https://www.linkedin.com/in/ilyes-benahmed-395a20251/"
+
+    - name: "Tanguy Libert"
+      image: "images/team/tanguy_libert.jpg"
+      designation: "Chief Operations Officer"
+      email: "tanguy.libert@truefalse.fr"
+      socialLinks:
+        - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link: "https://www.linkedin.com/in/tanguy-libert-157653221/"
