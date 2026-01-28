@@ -47,3 +47,7 @@ team:
       socialLinks:
         - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
           link: "https://www.linkedin.com/in/tanguy-libert-157653221/"
+
+    - name: "Godwin Kanlinsou"
+      image: "images/team/godwin_kanlinsou.jpg"
+      designation: "Software Engineer"
