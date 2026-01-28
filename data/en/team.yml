@@ -7,7 +7,7 @@ team:
     # team member loop
     - name: "Hugo Sibony"
       image: "images/team/hugo_sibony.jpg"
-      designation: "Co-Founder & President"
+      designation: "Co-Founder, President & CTO"
       email: "hugo.sibony@truefalse.fr"
       socialLinks:
         - icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
@@ -51,3 +51,13 @@ team:
     - name: "Godwin Kanlinsou"
       image: "images/team/godwin_kanlinsou.jpg"
       designation: "Software Engineer"
+      email: "kanlinsougodwin@gmail.com"
+      socialLinks:
+        - icon: "ti-linkedin"
+          link: "https://www.linkedin.com/in/godwin-kanlinsou/"
+
+        - icon: "ti-github"
+          link: "https://github.com/GodWindows"
+
+        - icon: "ti-link"
+          link: "https://godwin.fr/"
